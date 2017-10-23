@@ -103,6 +103,11 @@
           <descriptors>
             <descriptor>src/main/assembly/jar-with-test-dependencies.xml</descriptor>
           </descriptors>
+          <archive>
+            <manifest>
+              <mainClass>com.netcetera.ncau.java9beyondmodules.benchmark.Benchmarks</mainClass>
+            </manifest>
+          </archive>
         </configuration>
         <executions>
           <execution>
