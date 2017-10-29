@@ -9,7 +9,7 @@
   <url>https://github.com/netceteragroup/ncau-java9-beyond-modules</url>
   <name>NCAU Java 9 beyond modules</name>
   <description>companion code for the NCAU Java 9 beyond modules</description>
-  
+
   <developers>
     <developer>
       <id>marschall</id>
@@ -30,7 +30,7 @@
       </roles>
     </developer>
   </developers>
-  
+
   <licenses>
     <license>
       <name>MIT</name>
@@ -43,7 +43,7 @@
     <url>https://github.com/netceteragroup/ncau-java9-beyond-modules/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
-  
+
   <scm>
     <connection>scm:git:git@github.com:netceteragroup/ncau-java9-beyond-modules.git</connection>
     <developerConnection>scm:git:git@github.com:netceteragroup/ncau-java9-beyond-modules.git</developerConnection>
@@ -53,13 +53,13 @@
 
   <build>
     <plugins>
-          <plugin>
-            <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                  <release>9</release>
-                </configuration>
-          </plugin>
-    <plugin>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <release>9</release>
+        </configuration>
+      </plugin>
+      <plugin>
         <artifactId>maven-javadoc-plugin</artifactId>
         <configuration>
           <links>
@@ -232,7 +232,7 @@
     <dependency>
       <groupId>org.openjdk.jol</groupId>
       <artifactId>jol-core</artifactId>
-      <version>0.8</version>
+      <version>0.9</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -250,7 +250,7 @@
       <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
   </distributionManagement>
-  
+
   <properties>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
