@@ -27,7 +27,7 @@ public class UuidBenchmark {
    * {@link UUID#fromString(String)}.
    */
   @Benchmark
-  public UUID parseJdk() {
+  public UUID parse() {
     return UUID.fromString(TEST_UUID_STRING);
   }
 
@@ -36,7 +36,7 @@ public class UuidBenchmark {
    * {@link UUID#toString()}.
    */
   @Benchmark
-  public String serializeJdk() {
+  public String serialize() {
     return TEST_UUID.toString();
   }
 

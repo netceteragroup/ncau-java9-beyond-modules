@@ -1,17 +1,21 @@
 package com.netcetera.ncau.java9beyondmodules.benchmark;
 
 import org.openjdk.jmh.profile.GCProfiler;
-import org.openjdk.jmh.profile.HotspotMemoryProfiler;
 import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 
 /**
- * Main class running the benchmaks.
+ * Main class running the benchmarks.
  */
 public final class Benchmarks {
 
+  /**
+   * Main method, runs the benchmarks.
+   *
+   * @param args ignored
+   */
   public static void main(String[] args) throws RunnerException {
     Options options = new OptionsBuilder()
             .include("com.netcetera.ncau.java9beyondmodules.benchmark.*")
@@ -19,7 +23,6 @@ public final class Benchmarks {
             .measurementIterations(10)
             .forks(10)
             .addProfiler(GCProfiler.class)
-            .addProfiler(HotspotMemoryProfiler.class)
             .build();
     new Runner(options).run();
   }

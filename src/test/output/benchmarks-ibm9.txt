@@ -1,0 +1,37 @@
+# JMH version: 1.19
+# VM version: JDK 9-internal, VM 2.9
+# VM invoker: /home/marschall/bin/java/openj9-9-181/bin/java
+# VM options: -Xoptionsfile=/home/marschall/bin/java/openj9-9-181/lib/options.default -Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword=org/apache/harmony/luni/util/ModifiedMap$Entry,noLockword=java/util/Hashtable$Entry,noLockword=java/lang/invoke/MethodType,noLockword=java/lang/invoke/MethodHandle,noLockword=java/lang/invoke/CollectHandle,noLockword=java/lang/invoke/ConstructorHandle,noLockword=java/lang/invoke/ConvertHandle,noLockword=java/lang/invoke/ArgumentConversionHandle,noLockword=java/lang/invoke/AsTypeHandle,noLockword=java/lang/invoke/ExplicitCastHandle,noLockword=java/lang/invoke/FilterReturnHandle,noLockword=java/lang/invoke/DirectHandle,noLockword=java/lang/invoke/ReceiverBoundHandle,noLockword=java/lang/invoke/DynamicInvokerHandle,noLockword=java/lang/invoke/FieldHandle,noLockword=java/lang/invoke/FieldGetterHandle,noLockword=java/lang/invoke/FieldSetterHandle,noLockword=java/lang/invoke/StaticFieldGetterHandle,noLockword=java/lang/invoke/StaticFieldSetterHandle,noLockword=java/lang/invoke/IndirectHandle,noLockword=java/lang/invoke/InterfaceHandle,noLockword=java/lang/invoke/VirtualHandle,noLockword=java/lang/invoke/PrimitiveHandle,noLockword=java/lang/invoke/InvokeExactHandle,noLockword=java/lang/invoke/InvokeGenericHandle,noLockword=java/lang/invoke/VarargsCollectorHandle,noLockword=java/lang/invoke/ThunkTuple -Xjcl:jclse9_29 -Dcom.ibm.oti.vm.bootstrap.library.path=/home/marschall/bin/java/openj9-9-181/lib/compressedrefs:/home/marschall/bin/java/openj9-9-181/lib -Dsun.boot.library.path=/home/marschall/bin/java/openj9-9-181/lib/compressedrefs:/home/marschall/bin/java/openj9-9-181/lib -Djava.library.path=/home/marschall/bin/java/openj9-9-181/lib/compressedrefs:/home/marschall/bin/java/openj9-9-181/lib:/usr/lib64:/usr/lib -Djava.home=/home/marschall/bin/java/openj9-9-181 -Duser.dir=/home/marschall/git/ncau-java9-beyond-modules -Xgcpolicy:optthruput --add-opens=java.base/java.io=ALL-UNNAMED -Djava.class.path=target/ncau-java9-beyond-modules-1.0.0-SNAPSHOT-jar-with-test-dependencies.jar -Dsun.java.command=target/ncau-java9-beyond-modules-1.0.0-SNAPSHOT-jar-with-test-dependencies.jar -Dsun.java.launcher=SUN_STANDARD -Dsun.java.launcher.pid=14598
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+
+# Run complete. Total time: 00:20:17
+
+Benchmark                                             Mode  Cnt      Score    Error   Units
+Jsr310Benchmark.atZone                               thrpt  100      9.672 ±  0.096  ops/us
+Jsr310Benchmark.atZone:·gc.alloc.rate                thrpt  100        NaN           MB/sec
+Jsr310Benchmark.atZone:·gc.churn.tenured-SOA         thrpt  100    720.289 ±  8.881  MB/sec
+Jsr310Benchmark.atZone:·gc.churn.tenured-SOA.norm    thrpt  100    117.414 ±  2.514    B/op
+Jsr310Benchmark.atZone:·gc.count                     thrpt  100  22503.000           counts
+Jsr310Benchmark.atZone:·gc.time                      thrpt  100  25085.000               ms
+Jsr310Benchmark.plusDays                             thrpt  100    106.823 ±  1.071  ops/us
+Jsr310Benchmark.plusDays:·gc.alloc.rate              thrpt  100        NaN           MB/sec
+Jsr310Benchmark.plusDays:·gc.churn.tenured-SOA       thrpt  100   1635.709 ± 16.353  MB/sec
+Jsr310Benchmark.plusDays:·gc.churn.tenured-SOA.norm  thrpt  100     24.099 ±  0.008    B/op
+Jsr310Benchmark.plusDays:·gc.count                   thrpt  100  47413.000           counts
+Jsr310Benchmark.plusDays:·gc.time                    thrpt  100  48033.000               ms
+UuidBenchmark.parse                                  thrpt  100      5.091 ±  0.112  ops/us
+UuidBenchmark.parse:·gc.alloc.rate                   thrpt  100        NaN           MB/sec
+UuidBenchmark.parse:·gc.churn.tenured-SOA            thrpt  100     29.054 ± 12.141  MB/sec
+UuidBenchmark.parse:·gc.churn.tenured-SOA.norm       thrpt  100      9.648 ±  4.029    B/op
+UuidBenchmark.parse:·gc.count                        thrpt  100    839.000           counts
+UuidBenchmark.parse:·gc.time                         thrpt  100    952.000               ms
+UuidBenchmark.serialize                              thrpt  100     18.040 ±  0.059  ops/us
+UuidBenchmark.serialize:·gc.alloc.rate               thrpt  100        NaN           MB/sec
+UuidBenchmark.serialize:·gc.churn.tenured-SOA        thrpt  100   1108.061 ±  3.649  MB/sec
+UuidBenchmark.serialize:·gc.churn.tenured-SOA.norm   thrpt  100     96.676 ±  0.049    B/op
+UuidBenchmark.serialize:·gc.count                    thrpt  100  32078.000           counts
+UuidBenchmark.serialize:·gc.time                     thrpt  100  31656.000               ms
