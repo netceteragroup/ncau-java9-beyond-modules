@@ -1,0 +1,39 @@
+# JMH version: 1.19
+# VM version: JDK 9.0.1, VM 9.0.1+11
+# VM invoker: /home/marschall/bin/java/jdk-9.0.1/bin/java
+# VM options: -XX:+UseParallelGC -Xmx32g -Xms32g -Xmn31g --add-opens=java.base/java.io=ALL-UNNAMED -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+
+# Run complete. Total time: 00:20:30
+
+Benchmark                                                   Mode  Cnt     Score      Error   Units
+Jsr310Benchmark.atZone                                     thrpt  100    11.630 ±    0.048  ops/us
+Jsr310Benchmark.atZone:·gc.alloc.rate                      thrpt  100   473.314 ±    2.076  MB/sec
+Jsr310Benchmark.atZone:·gc.alloc.rate.norm                 thrpt  100    64.049 ±    0.096    B/op
+Jsr310Benchmark.atZone:·gc.count                           thrpt  100       ≈ 0             counts
+Jsr310Benchmark.plusDays                                   thrpt  100   356.797 ±   34.338  ops/us
+Jsr310Benchmark.plusDays:·gc.alloc.rate                    thrpt  100  5578.131 ±  510.574  MB/sec
+Jsr310Benchmark.plusDays:·gc.alloc.rate.norm               thrpt  100    24.777 ±    0.510    B/op
+Jsr310Benchmark.plusDays:·gc.churn.PS_Eden_Space           thrpt  100     0.003 ±    0.004  MB/sec
+Jsr310Benchmark.plusDays:·gc.churn.PS_Eden_Space.norm      thrpt  100    ≈ 10⁻⁵               B/op
+Jsr310Benchmark.plusDays:·gc.churn.PS_Survivor_Space       thrpt  100  5285.944 ± 2791.189  MB/sec
+Jsr310Benchmark.plusDays:·gc.churn.PS_Survivor_Space.norm  thrpt  100    29.063 ±   17.944    B/op
+Jsr310Benchmark.plusDays:·gc.count                         thrpt  100    30.000             counts
+Jsr310Benchmark.plusDays:·gc.time                          thrpt  100    64.000                 ms
+UuidBenchmark.parse                                        thrpt  100     9.784 ±    0.082  ops/us
+UuidBenchmark.parse:·gc.alloc.rate                         thrpt  100   199.254 ±    1.603  MB/sec
+UuidBenchmark.parse:·gc.alloc.rate.norm                    thrpt  100    32.053 ±    0.106    B/op
+UuidBenchmark.parse:·gc.count                              thrpt  100       ≈ 0             counts
+UuidBenchmark.serialize                                    thrpt  100    34.695 ±    1.576  ops/us
+UuidBenchmark.serialize:·gc.alloc.rate                     thrpt  100  2152.053 ±   89.953  MB/sec
+UuidBenchmark.serialize:·gc.alloc.rate.norm                thrpt  100    97.870 ±    1.392    B/op
+UuidBenchmark.serialize:·gc.churn.PS_Survivor_Space        thrpt  100  3172.062 ± 2162.467  MB/sec
+UuidBenchmark.serialize:·gc.churn.PS_Survivor_Space.norm   thrpt  100   185.415 ±  129.218    B/op
+UuidBenchmark.serialize:·gc.count                          thrpt  100    20.000             counts
+UuidBenchmark.serialize:·gc.time                           thrpt  100    48.000                 ms
+
+Benchmark result is saved to jmh-result.text
