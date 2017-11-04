@@ -1,5 +1,7 @@
 package com.netcetera.ncau.java9beyondmodules.benchmark;
 
+import static org.openjdk.jmh.results.format.ResultFormatType.TEXT;
+
 import org.openjdk.jmh.profile.GCProfiler;
 import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
@@ -14,7 +16,7 @@ public final class Benchmarks {
   /**
    * Main method, runs the benchmarks.
    *
-   * @param args ignored
+   * @param args first element contains the file name
    */
   public static void main(String[] args) throws RunnerException {
     Options options = new OptionsBuilder()
@@ -23,6 +25,8 @@ public final class Benchmarks {
             .measurementIterations(10)
             .forks(10)
             .addProfiler(GCProfiler.class)
+            .resultFormat(TEXT)
+            .output(args[0])
             .build();
     new Runner(options).run();
   }
