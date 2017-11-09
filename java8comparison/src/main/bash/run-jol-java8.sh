@@ -1,4 +1,5 @@
 #!/bin/bash
 sudo $JAVA_HOME/bin/java \
- -cp target/java8comparison-1.0.0-SNAPSHOT-jar-with-test-dependencies.jar \
+ -XX:+UseSerialGC -Xmx32m \
+ -cp target/java8comparison-1.0.0-SNAPSHOT.jar \
  com.netcetera.ncau.java9beyondmodules.StringLayout

@@ -21,7 +21,7 @@ import org.openjdk.jol.vm.VM;
  * @see <a href="http://openjdk.java.net/jeps/254">JEP 254</a>
  */
 public final class StringLayout {
-  
+
   private StringLayout() {
     throw new AssertionError("not instantiable");
   }
