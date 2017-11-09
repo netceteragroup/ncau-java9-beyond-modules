@@ -1,16 +1,16 @@
 package com.netcetera.ncau.java9beyondmodules.benchmark;
 
+import org.openjdk.jmh.annotations.Benchmark;
+import org.openjdk.jmh.annotations.BenchmarkMode;
+import org.openjdk.jmh.annotations.Mode;
+import org.openjdk.jmh.annotations.OutputTimeUnit;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.util.concurrent.TimeUnit;
-
-import org.openjdk.jmh.annotations.Benchmark;
-import org.openjdk.jmh.annotations.BenchmarkMode;
-import org.openjdk.jmh.annotations.Mode;
-import org.openjdk.jmh.annotations.OutputTimeUnit;
 
 /**
  * Demonstrates various performance improvements made to the JSR-310
@@ -28,6 +28,7 @@ public class Jsr310Benchmark {
    * Demonstrates the performance improvements made to
    * {@link ZoneId#systemDefault()}.
    *
+   * @return object to black hole
    * @see <a href="https://bugs.openjdk.java.net/browse/JDK-8074002">JDK-8074002</a>
    */
   @Benchmark
@@ -39,6 +40,7 @@ public class Jsr310Benchmark {
    * Demonstrates the performance improvements made to
    * {@link LocalDate#plusDays(long)}.
    *
+   * @return object to black hole
    * @see <a href="https://bugs.openjdk.java.net/browse/JDK-8068803">JDK-8068803</a>
    */
   @Benchmark

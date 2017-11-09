@@ -1,12 +1,12 @@
 package com.netcetera.ncau.java9beyondmodules.benchmark;
 
-import java.util.UUID;
-import java.util.concurrent.TimeUnit;
-
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.BenchmarkMode;
 import org.openjdk.jmh.annotations.Mode;
 import org.openjdk.jmh.annotations.OutputTimeUnit;
+
+import java.util.UUID;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Demonstrates various performance improvements made to {@link UUID}
@@ -25,6 +25,8 @@ public class UuidBenchmark {
   /**
    * Demonstrates the performance improvements made to
    * {@link UUID#fromString(String)}.
+   * 
+   * @return object to black hole
    */
   @Benchmark
   public UUID parse() {
@@ -34,6 +36,8 @@ public class UuidBenchmark {
   /**
    * Demonstrates the performance improvements made to
    * {@link UUID#toString()}.
+   * 
+   * @return object to black hole
    */
   @Benchmark
   public String serialize() {

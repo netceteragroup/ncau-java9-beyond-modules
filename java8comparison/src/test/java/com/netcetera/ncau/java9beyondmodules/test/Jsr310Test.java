@@ -3,10 +3,10 @@ package com.netcetera.ncau.java9beyondmodules.test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import org.junit.jupiter.api.Test;
+
 import java.time.Duration;
 import java.time.ZonedDateTime;
-
-import org.junit.jupiter.api.Test;
 
 /**
  * Validates bug fixes made to the JSR-310 implementation in Java 9.

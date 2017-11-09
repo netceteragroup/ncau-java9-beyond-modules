@@ -16,11 +16,15 @@ import org.openjdk.jol.vm.VM;
  * --add-opens java.base/java.lang=ALL-UNNAMED -Djdk.attach.allowAttachSelf \
  * -cp target/ncau-java9-beyond-modules-1.0.0-SNAPSHOT-jar-with-test-dependencies.jar \
  * com.netcetera.ncau.java9beyondmodules.StringLayout
- * </pre></code>
+ * </code></pre>
  *
  * @see <a href="http://openjdk.java.net/jeps/254">JEP 254</a>
  */
-public class StringLayout {
+public final class StringLayout {
+  
+  private StringLayout() {
+    throw new AssertionError("not instantiable");
+  }
 
   /**
    * Main method, examines {@literal "hello world"}.
@@ -34,12 +38,12 @@ public class StringLayout {
     System.out.println(classLayout.toPrintable());
 
     Class<?> arrayClass = classLayout.fields().stream()
-      .filter(StringLayout::isArray)
-      .map(FieldLayout::typeClass)
-      .map(StringLayout::toJniType)
-      .map(StringLayout::forName)
-      .findFirst()
-      .get();
+        .filter(StringLayout::isArray)
+        .map(FieldLayout::typeClass)
+        .map(StringLayout::toJniType)
+        .map(StringLayout::forName)
+        .findFirst()
+        .get();
 
     classLayout = ClassLayout.parseClass(arrayClass);
     System.out.println(classLayout.toPrintable());

@@ -12,11 +12,16 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
  * Main class running the benchmarks.
  */
 public final class Benchmarks {
+  
+  private Benchmarks() {
+    throw new AssertionError("not instantiable");
+  }
 
   /**
    * Main method, runs the benchmarks.
    *
    * @param args first element contains the file name
+   * @throws RunnerException  if something goes wrong during execution
    */
   public static void main(String[] args) throws RunnerException {
     Options options = new OptionsBuilder()
