@@ -1,0 +1,315 @@
+[2017-11-09T14:24:46.142-0100][info][gc] Using Serial
+[2017-11-09T14:24:46.142-0100][info][gc,heap,coops] Heap address: 0x00000007bc000000, size: 64 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+[2017-11-09T14:24:46.605-0100][info][safepoint    ] Application time: 0.3626429 seconds
+[2017-11-09T14:24:46.605-0100][info][safepoint    ] Total time for which application threads were stopped: 0.0001846 seconds, Stopping threads took: 0.0000129 seconds
+[2017-11-09T14:24:46.611-0100][info][safepoint    ] Application time: 0.0053650 seconds
+[2017-11-09T14:24:46.611-0100][info][safepoint    ] Total time for which application threads were stopped: 0.0000954 seconds, Stopping threads took: 0.0000090 seconds
+[2017-11-09T14:24:46.625-0100][info][safepoint    ] Application time: 0.0144313 seconds
+[2017-11-09T14:24:46.626-0100][info][safepoint    ] Total time for which application threads were stopped: 0.0001174 seconds, Stopping threads took: 0.0000136 seconds
+[2017-11-09T14:24:46.685-0100][info][safepoint    ] Application time: 0.0595348 seconds
+[2017-11-09T14:24:46.685-0100][info][gc,start     ] GC(0) Pause Young (Allocation Failure)
+[2017-11-09T14:24:46.695-0100][debug][gc,ref       ] GC(0) SoftReference 0.003ms
+[2017-11-09T14:24:46.695-0100][debug][gc,ref       ] GC(0) WeakReference 0.017ms
+[2017-11-09T14:24:46.695-0100][debug][gc,ref       ] GC(0) FinalReference 0.011ms
+[2017-11-09T14:24:46.695-0100][debug][gc,ref       ] GC(0) PhantomReference 0.001ms
+[2017-11-09T14:24:46.695-0100][debug][gc,ref       ] GC(0) JNI Weak Reference 0.025ms
+[2017-11-09T14:24:46.695-0100][debug][gc,ref       ] GC(0) Ref Counts: Soft: 0 Weak: 191 Final: 4 Phantom: 5
+[2017-11-09T14:24:46.695-0100][debug][gc,age       ] GC(0) Desired survivor size 1114112 bytes, new threshold 1 (max threshold 15)
+[2017-11-09T14:24:46.695-0100][trace][gc,age       ] GC(0) Age table with threshold 1 (max threshold 15)
+[2017-11-09T14:24:46.695-0100][trace][gc,age       ] GC(0) - age   1:    2228224 bytes,    2228224 total
+[2017-11-09T14:24:46.695-0100][info ][gc,heap      ] GC(0) DefNew: 17472K->2176K(19648K)
+[2017-11-09T14:24:46.695-0100][info ][gc,heap      ] GC(0) Tenured: 0K->2752K(43712K)
+[2017-11-09T14:24:46.695-0100][info ][gc,metaspace ] GC(0) Metaspace: 12925K->12925K(1060864K)
+[2017-11-09T14:24:46.695-0100][info ][gc           ] GC(0) Pause Young (Allocation Failure) 17M->4M(61M) 10.106ms
+[2017-11-09T14:24:46.695-0100][info ][gc,cpu       ] GC(0) User=0.01s Sys=0.00s Real=0.01s
+[2017-11-09T14:24:46.695-0100][info ][safepoint    ] Total time for which application threads were stopped: 0.0102362 seconds, Stopping threads took: 0.0000131 seconds
+[2017-11-09T14:24:46.895-0100][info ][safepoint    ] Application time: 0.1992862 seconds
+[2017-11-09T14:24:46.895-0100][info ][safepoint    ] Total time for which application threads were stopped: 0.0002050 seconds, Stopping threads took: 0.0000134 seconds
+[2017-11-09T14:24:46.908-0100][info ][safepoint    ] Application time: 0.0133788 seconds
+[2017-11-09T14:24:46.909-0100][info ][safepoint    ] Total time for which application threads were stopped: 0.0001654 seconds, Stopping threads took: 0.0000131 seconds
+[2017-11-09T14:24:47.063-0100][info ][safepoint    ] Application time: 0.1544505 seconds
+[2017-11-09T14:24:47.063-0100][info ][gc,start     ] GC(1) Pause Young (Allocation Failure)
+[2017-11-09T14:24:47.084-0100][debug][gc,ref       ] GC(1) SoftReference 0.004ms
+[2017-11-09T14:24:47.084-0100][debug][gc,ref       ] GC(1) WeakReference 0.014ms
+[2017-11-09T14:24:47.084-0100][debug][gc,ref       ] GC(1) FinalReference 0.019ms
+[2017-11-09T14:24:47.084-0100][debug][gc,ref       ] GC(1) PhantomReference 0.002ms
+[2017-11-09T14:24:47.084-0100][debug][gc,ref       ] GC(1) JNI Weak Reference 0.032ms
+[2017-11-09T14:24:47.084-0100][debug][gc,ref       ] GC(1) Ref Counts: Soft: 0 Weak: 103 Final: 15 Phantom: 18
+[2017-11-09T14:24:47.084-0100][debug][gc,age       ] GC(1) Desired survivor size 1114112 bytes, new threshold 1 (max threshold 15)
+[2017-11-09T14:24:47.084-0100][trace][gc,age       ] GC(1) Age table with threshold 1 (max threshold 15)
+[2017-11-09T14:24:47.084-0100][trace][gc,age       ] GC(1) - age   1:    2228216 bytes,    2228216 total
+[2017-11-09T14:24:47.084-0100][info ][gc,heap      ] GC(1) DefNew: 19648K->2175K(19648K)
+[2017-11-09T14:24:47.084-0100][info ][gc,heap      ] GC(1) Tenured: 2752K->6671K(43712K)
+[2017-11-09T14:24:47.084-0100][info ][gc,metaspace ] GC(1) Metaspace: 17709K->17709K(1067008K)
+[2017-11-09T14:24:47.084-0100][info ][gc           ] GC(1) Pause Young (Allocation Failure) 21M->8M(61M) 20.938ms
+[2017-11-09T14:24:47.084-0100][info ][gc,cpu       ] GC(1) User=0.01s Sys=0.00s Real=0.02s
+[2017-11-09T14:24:47.084-0100][info ][safepoint    ] Total time for which application threads were stopped: 0.0211169 seconds, Stopping threads took: 0.0000132 seconds
+[2017-11-09T14:24:47.211-0100][info ][safepoint    ] Application time: 0.1266436 seconds
+[2017-11-09T14:24:47.211-0100][info ][safepoint    ] Total time for which application threads were stopped: 0.0002056 seconds, Stopping threads took: 0.0000135 seconds
+[2017-11-09T14:24:47.252-0100][info ][safepoint    ] Application time: 0.0407301 seconds
+[2017-11-09T14:24:47.252-0100][info ][safepoint    ] Total time for which application threads were stopped: 0.0001978 seconds, Stopping threads took: 0.0000128 seconds
+[2017-11-09T14:24:47.464-0100][info ][safepoint    ] Application time: 0.2113345 seconds
+[2017-11-09T14:24:47.464-0100][info ][gc,start     ] GC(2) Pause Young (Allocation Failure)
+[2017-11-09T14:24:47.474-0100][debug][gc,ref       ] GC(2) SoftReference 0.002ms
+[2017-11-09T14:24:47.474-0100][debug][gc,ref       ] GC(2) WeakReference 0.013ms
+[2017-11-09T14:24:47.477-0100][debug][gc,ref       ] GC(2) FinalReference 2.934ms
+[2017-11-09T14:24:47.477-0100][debug][gc,ref       ] GC(2) PhantomReference 0.006ms
+[2017-11-09T14:24:47.477-0100][debug][gc,ref       ] GC(2) JNI Weak Reference 0.022ms
+[2017-11-09T14:24:47.477-0100][debug][gc,ref       ] GC(2) Ref Counts: Soft: 0 Weak: 135 Final: 1837 Phantom: 37
+[2017-11-09T14:24:47.477-0100][debug][gc,age       ] GC(2) Desired survivor size 1114112 bytes, new threshold 1 (max threshold 15)
+[2017-11-09T14:24:47.477-0100][trace][gc,age       ] GC(2) Age table with threshold 1 (max threshold 15)
+[2017-11-09T14:24:47.477-0100][trace][gc,age       ] GC(2) - age   1:    2228216 bytes,    2228216 total
+[2017-11-09T14:24:47.477-0100][info ][gc,heap      ] GC(2) DefNew: 19647K->2175K(19648K)
+[2017-11-09T14:24:47.477-0100][info ][gc,heap      ] GC(2) Tenured: 6671K->12770K(43712K)
+[2017-11-09T14:24:47.477-0100][info ][gc,metaspace ] GC(2) Metaspace: 24181K->24181K(1073152K)
+[2017-11-09T14:24:47.477-0100][info ][gc           ] GC(2) Pause Young (Allocation Failure) 25M->14M(61M) 13.633ms
+[2017-11-09T14:24:47.477-0100][info ][gc,cpu       ] GC(2) User=0.03s Sys=0.01s Real=0.01s
+[2017-11-09T14:24:47.477-0100][info ][safepoint    ] Total time for which application threads were stopped: 0.0138218 seconds, Stopping threads took: 0.0000146 seconds
+[2017-11-09T14:24:47.620-0100][info ][safepoint    ] Application time: 0.1425964 seconds
+[2017-11-09T14:24:47.620-0100][info ][gc,start     ] GC(3) Pause Young (Allocation Failure)
+[2017-11-09T14:24:47.631-0100][debug][gc,ref       ] GC(3) SoftReference 0.003ms
+[2017-11-09T14:24:47.631-0100][debug][gc,ref       ] GC(3) WeakReference 0.006ms
+[2017-11-09T14:24:47.631-0100][debug][gc,ref       ] GC(3) FinalReference 0.002ms
+[2017-11-09T14:24:47.631-0100][debug][gc,ref       ] GC(3) PhantomReference 0.001ms
+[2017-11-09T14:24:47.631-0100][debug][gc,ref       ] GC(3) JNI Weak Reference 0.014ms
+[2017-11-09T14:24:47.631-0100][debug][gc,ref       ] GC(3) Ref Counts: Soft: 0 Weak: 75 Final: 3 Phantom: 4
+[2017-11-09T14:24:47.631-0100][debug][gc,age       ] GC(3) Desired survivor size 1114112 bytes, new threshold 1 (max threshold 15)
+[2017-11-09T14:24:47.631-0100][trace][gc,age       ] GC(3) Age table with threshold 1 (max threshold 15)
+[2017-11-09T14:24:47.631-0100][trace][gc,age       ] GC(3) - age   1:    2228216 bytes,    2228216 total
+[2017-11-09T14:24:47.631-0100][info ][gc,heap      ] GC(3) DefNew: 19647K->2175K(19648K)
+[2017-11-09T14:24:47.631-0100][info ][gc,heap      ] GC(3) Tenured: 12770K->16923K(43712K)
+[2017-11-09T14:24:47.631-0100][info ][gc,metaspace ] GC(3) Metaspace: 26639K->26639K(1075200K)
+[2017-11-09T14:24:47.631-0100][info ][gc           ] GC(3) Pause Young (Allocation Failure) 31M->18M(61M) 10.574ms
+[2017-11-09T14:24:47.631-0100][info ][gc,cpu       ] GC(3) User=0.01s Sys=0.00s Real=0.01s
+[2017-11-09T14:24:47.631-0100][info ][safepoint    ] Total time for which application threads were stopped: 0.0108951 seconds, Stopping threads took: 0.0001289 seconds
+[2017-11-09T14:24:47.646-0100][info ][safepoint    ] Application time: 0.0145752 seconds
+[2017-11-09T14:24:47.646-0100][info ][gc,start     ] GC(4) Pause Young (Allocation Failure)
+[2017-11-09T14:24:47.654-0100][debug][gc,ref       ] GC(4) SoftReference 0.003ms
+[2017-11-09T14:24:47.654-0100][debug][gc,ref       ] GC(4) WeakReference 0.003ms
+[2017-11-09T14:24:47.654-0100][debug][gc,ref       ] GC(4) FinalReference 0.002ms
+[2017-11-09T14:24:47.654-0100][debug][gc,ref       ] GC(4) PhantomReference 0.001ms
+[2017-11-09T14:24:47.654-0100][debug][gc,ref       ] GC(4) JNI Weak Reference 0.011ms
+[2017-11-09T14:24:47.654-0100][debug][gc,ref       ] GC(4) Ref Counts: Soft: 0 Weak: 30 Final: 2 Phantom: 4
+[2017-11-09T14:24:47.654-0100][debug][gc,age       ] GC(4) Desired survivor size 1114112 bytes, new threshold 1 (max threshold 15)
+[2017-11-09T14:24:47.654-0100][trace][gc,age       ] GC(4) Age table with threshold 1 (max threshold 15)
+[2017-11-09T14:24:47.654-0100][trace][gc,age       ] GC(4) - age   1:    2228216 bytes,    2228216 total
+[2017-11-09T14:24:47.654-0100][info ][gc,heap      ] GC(4) DefNew: 19647K->2175K(19648K)
+[2017-11-09T14:24:47.654-0100][info ][gc,heap      ] GC(4) Tenured: 16923K->19930K(43712K)
+[2017-11-09T14:24:47.654-0100][info ][gc,metaspace ] GC(4) Metaspace: 26709K->26709K(1075200K)
+[2017-11-09T14:24:47.654-0100][info ][gc           ] GC(4) Pause Young (Allocation Failure) 35M->21M(61M) 7.670ms
+[2017-11-09T14:24:47.654-0100][info ][gc,cpu       ] GC(4) User=0.01s Sys=0.01s Real=0.01s
+[2017-11-09T14:24:47.654-0100][info ][safepoint    ] Total time for which application threads were stopped: 0.0083249 seconds, Stopping threads took: 0.0004519 seconds
+[2017-11-09T14:24:47.725-0100][info ][safepoint    ] Application time: 0.0705670 seconds
+[2017-11-09T14:24:47.725-0100][info ][safepoint    ] Total time for which application threads were stopped: 0.0001581 seconds, Stopping threads took: 0.0000473 seconds
+[2017-11-09T14:24:47.725-0100][info ][safepoint    ] Application time: 0.0000446 seconds
+[2017-11-09T14:24:47.725-0100][info ][gc,start     ] GC(5) Pause Young (GCLocker Initiated GC)
+[2017-11-09T14:24:47.733-0100][debug][gc,ref       ] GC(5) SoftReference 0.002ms
+[2017-11-09T14:24:47.733-0100][debug][gc,ref       ] GC(5) WeakReference 0.005ms
+[2017-11-09T14:24:47.734-0100][debug][gc,ref       ] GC(5) FinalReference 0.864ms
+[2017-11-09T14:24:47.734-0100][debug][gc,ref       ] GC(5) PhantomReference 0.018ms
+[2017-11-09T14:24:47.734-0100][debug][gc,ref       ] GC(5) JNI Weak Reference 0.022ms
+[2017-11-09T14:24:47.734-0100][debug][gc,ref       ] GC(5) Ref Counts: Soft: 0 Weak: 48 Final: 443 Phantom: 106
+[2017-11-09T14:24:47.734-0100][debug][gc,age       ] GC(5) Desired survivor size 1114112 bytes, new threshold 1 (max threshold 15)
+[2017-11-09T14:24:47.734-0100][trace][gc,age       ] GC(5) Age table with threshold 1 (max threshold 15)
+[2017-11-09T14:24:47.734-0100][trace][gc,age       ] GC(5) - age   1:    2228224 bytes,    2228224 total
+[2017-11-09T14:24:47.734-0100][info ][gc,heap      ] GC(5) DefNew: 19647K->2176K(19648K)
+[2017-11-09T14:24:47.734-0100][info ][gc,heap      ] GC(5) Tenured: 19936K->23507K(43712K)
+[2017-11-09T14:24:47.734-0100][info ][gc,metaspace ] GC(5) Metaspace: 28254K->28254K(1077248K)
+[2017-11-09T14:24:47.734-0100][info ][gc           ] GC(5) Pause Young (GCLocker Initiated GC) 38M->25M(61M) 8.853ms
+[2017-11-09T14:24:47.734-0100][info ][gc,cpu       ] GC(5) User=0.02s Sys=0.00s Real=0.01s
+[2017-11-09T14:24:47.734-0100][info ][safepoint    ] Total time for which application threads were stopped: 0.0090128 seconds, Stopping threads took: 0.0000114 seconds
+[2017-11-09T14:24:47.973-0100][info ][safepoint    ] Application time: 0.2386984 seconds
+[2017-11-09T14:24:47.973-0100][info ][gc,start     ] GC(6) Pause Young (Allocation Failure)
+[2017-11-09T14:24:47.981-0100][debug][gc,ref       ] GC(6) SoftReference 0.002ms
+[2017-11-09T14:24:47.981-0100][debug][gc,ref       ] GC(6) WeakReference 0.008ms
+[2017-11-09T14:24:47.982-0100][debug][gc,ref       ] GC(6) FinalReference 1.354ms
+[2017-11-09T14:24:47.982-0100][debug][gc,ref       ] GC(6) PhantomReference 0.006ms
+[2017-11-09T14:24:47.982-0100][debug][gc,ref       ] GC(6) JNI Weak Reference 0.022ms
+[2017-11-09T14:24:47.982-0100][debug][gc,ref       ] GC(6) Ref Counts: Soft: 0 Weak: 75 Final: 1076 Phantom: 48
+[2017-11-09T14:24:47.982-0100][debug][gc,age       ] GC(6) Desired survivor size 1114112 bytes, new threshold 1 (max threshold 15)
+[2017-11-09T14:24:47.982-0100][trace][gc,age       ] GC(6) Age table with threshold 1 (max threshold 15)
+[2017-11-09T14:24:47.982-0100][trace][gc,age       ] GC(6) - age   1:    2228216 bytes,    2228216 total
+[2017-11-09T14:24:47.982-0100][info ][gc,heap      ] GC(6) DefNew: 19617K->2175K(19648K)
+[2017-11-09T14:24:47.983-0100][info ][gc,heap      ] GC(6) Tenured: 23507K->27412K(43712K)
+[2017-11-09T14:24:47.983-0100][info ][gc,metaspace ] GC(6) Metaspace: 31331K->31331K(1079296K)
+[2017-11-09T14:24:47.983-0100][info ][gc           ] GC(6) Pause Young (Allocation Failure) 42M->28M(61M) 9.548ms
+[2017-11-09T14:24:47.983-0100][info ][gc,cpu       ] GC(6) User=0.01s Sys=0.00s Real=0.01s
+[2017-11-09T14:24:47.983-0100][info ][safepoint    ] Total time for which application threads were stopped: 0.0098368 seconds, Stopping threads took: 0.0000341 seconds
+[2017-11-09T14:24:48.070-0100][info ][safepoint    ] Application time: 0.0876189 seconds
+[2017-11-09T14:24:48.070-0100][info ][gc,start     ] GC(7) Pause Young (Allocation Failure)
+[2017-11-09T14:24:48.076-0100][debug][gc,ref       ] GC(7) SoftReference 0.003ms
+[2017-11-09T14:24:48.076-0100][debug][gc,ref       ] GC(7) WeakReference 0.004ms
+[2017-11-09T14:24:48.076-0100][debug][gc,ref       ] GC(7) FinalReference 0.259ms
+[2017-11-09T14:24:48.076-0100][debug][gc,ref       ] GC(7) PhantomReference 0.003ms
+[2017-11-09T14:24:48.076-0100][debug][gc,ref       ] GC(7) JNI Weak Reference 0.019ms
+[2017-11-09T14:24:48.076-0100][debug][gc,ref       ] GC(7) Ref Counts: Soft: 0 Weak: 22 Final: 354 Phantom: 39
+[2017-11-09T14:24:48.076-0100][debug][gc,age       ] GC(7) Desired survivor size 1114112 bytes, new threshold 1 (max threshold 15)
+[2017-11-09T14:24:48.076-0100][trace][gc,age       ] GC(7) Age table with threshold 1 (max threshold 15)
+[2017-11-09T14:24:48.076-0100][trace][gc,age       ] GC(7) - age   1:    1230016 bytes,    1230016 total
+[2017-11-09T14:24:48.076-0100][info ][gc,heap      ] GC(7) DefNew: 19640K->1201K(19648K)
+[2017-11-09T14:24:48.076-0100][info ][gc,heap      ] GC(7) Tenured: 27412K->28555K(43712K)
+[2017-11-09T14:24:48.076-0100][info ][gc,metaspace ] GC(7) Metaspace: 32285K->32285K(1081344K)
+[2017-11-09T14:24:48.076-0100][info ][gc           ] GC(7) Pause Young (Allocation Failure) 45M->29M(61M) 5.776ms
+[2017-11-09T14:24:48.076-0100][info ][gc,cpu       ] GC(7) User=0.02s Sys=0.01s Real=0.00s
+[2017-11-09T14:24:48.076-0100][info ][safepoint    ] Total time for which application threads were stopped: 0.0060086 seconds, Stopping threads took: 0.0000282 seconds
+[2017-11-09T14:24:48.281-0100][info ][safepoint    ] Application time: 0.2046905 seconds
+[2017-11-09T14:24:48.282-0100][info ][gc,start     ] GC(8) Pause Young (Allocation Failure)
+[2017-11-09T14:24:48.290-0100][debug][gc,ref       ] GC(8) SoftReference 0.002ms
+[2017-11-09T14:24:48.290-0100][debug][gc,ref       ] GC(8) WeakReference 0.009ms
+[2017-11-09T14:24:48.292-0100][debug][gc,ref       ] GC(8) FinalReference 1.960ms
+[2017-11-09T14:24:48.292-0100][debug][gc,ref       ] GC(8) PhantomReference 0.007ms
+[2017-11-09T14:24:48.292-0100][debug][gc,ref       ] GC(8) JNI Weak Reference 0.020ms
+[2017-11-09T14:24:48.292-0100][debug][gc,ref       ] GC(8) Ref Counts: Soft: 0 Weak: 149 Final: 1435 Phantom: 79
+[2017-11-09T14:24:48.292-0100][debug][gc,age       ] GC(8) Desired survivor size 1114112 bytes, new threshold 1 (max threshold 15)
+[2017-11-09T14:24:48.292-0100][trace][gc,age       ] GC(8) Age table with threshold 1 (max threshold 15)
+[2017-11-09T14:24:48.292-0100][trace][gc,age       ] GC(8) - age   1:    2228224 bytes,    2228224 total
+[2017-11-09T14:24:48.292-0100][info ][gc,heap      ] GC(8) DefNew: 18673K->2176K(19648K)
+[2017-11-09T14:24:48.292-0100][info ][gc,heap      ] GC(8) Tenured: 28555K->31748K(43712K)
+[2017-11-09T14:24:48.292-0100][info ][gc,metaspace ] GC(8) Metaspace: 35661K->35661K(1083392K)
+[2017-11-09T14:24:48.292-0100][info ][gc           ] GC(8) Pause Young (Allocation Failure) 46M->33M(61M) 10.203ms
+[2017-11-09T14:24:48.292-0100][info ][gc,cpu       ] GC(8) User=0.02s Sys=0.00s Real=0.01s
+[2017-11-09T14:24:48.292-0100][info ][safepoint    ] Total time for which application threads were stopped: 0.0111852 seconds, Stopping threads took: 0.0007532 seconds
+[2017-11-09T14:24:48.526-0100][info ][safepoint    ] Application time: 0.2332396 seconds
+[2017-11-09T14:24:48.526-0100][info ][gc,start     ] GC(9) Pause Young (Allocation Failure)
+[2017-11-09T14:24:48.540-0100][debug][gc,ref       ] GC(9) SoftReference 0.003ms
+[2017-11-09T14:24:48.540-0100][debug][gc,ref       ] GC(9) WeakReference 0.015ms
+[2017-11-09T14:24:48.544-0100][debug][gc,ref       ] GC(9) FinalReference 3.815ms
+[2017-11-09T14:24:48.544-0100][debug][gc,ref       ] GC(9) PhantomReference 0.025ms
+[2017-11-09T14:24:48.544-0100][debug][gc,ref       ] GC(9) JNI Weak Reference 0.044ms
+[2017-11-09T14:24:48.544-0100][debug][gc,ref       ] GC(9) Ref Counts: Soft: 0 Weak: 127 Final: 1558 Phantom: 132
+[2017-11-09T14:24:48.544-0100][debug][gc,age       ] GC(9) Desired survivor size 1114112 bytes, new threshold 1 (max threshold 15)
+[2017-11-09T14:24:48.544-0100][trace][gc,age       ] GC(9) Age table with threshold 1 (max threshold 15)
+[2017-11-09T14:24:48.544-0100][trace][gc,age       ] GC(9) - age   1:    2228216 bytes,    2228216 total
+[2017-11-09T14:24:48.544-0100][info ][gc,heap      ] GC(9) DefNew: 19648K->2175K(19648K)
+[2017-11-09T14:24:48.544-0100][info ][gc,heap      ] GC(9) Tenured: 31748K->37322K(43712K)
+[2017-11-09T14:24:48.544-0100][info ][gc,metaspace ] GC(9) Metaspace: 39303K->39303K(1087488K)
+[2017-11-09T14:24:48.544-0100][info ][gc           ] GC(9) Pause Young (Allocation Failure) 50M->38M(61M) 18.196ms
+[2017-11-09T14:24:48.544-0100][info ][gc,cpu       ] GC(9) User=0.03s Sys=0.00s Real=0.02s
+[2017-11-09T14:24:48.544-0100][info ][safepoint    ] Total time for which application threads were stopped: 0.0185594 seconds, Stopping threads took: 0.0000281 seconds
+[2017-11-09T14:24:48.737-0100][info ][safepoint    ] Application time: 0.1923789 seconds
+[2017-11-09T14:24:48.741-0100][info ][gc,start     ] GC(10) Pause Young (Allocation Failure)
+[2017-11-09T14:24:48.741-0100][info ][gc,start     ] GC(11) Pause Full (Allocation Failure)
+[2017-11-09T14:24:48.744-0100][info ][gc,phases,start] GC(11) Phase 1: Mark live objects
+[2017-11-09T14:24:48.777-0100][debug][gc,ref         ] GC(11) SoftReference 0.002ms
+[2017-11-09T14:24:48.777-0100][debug][gc,ref         ] GC(11) WeakReference 0.032ms
+[2017-11-09T14:24:48.778-0100][debug][gc,ref         ] GC(11) FinalReference 0.996ms
+[2017-11-09T14:24:48.778-0100][debug][gc,ref         ] GC(11) PhantomReference 0.027ms
+[2017-11-09T14:24:48.778-0100][debug][gc,ref         ] GC(11) JNI Weak Reference 0.038ms
+[2017-11-09T14:24:48.778-0100][debug][gc,ref         ] GC(11) Ref Counts: Soft: 0 Weak: 388 Final: 4990 Phantom: 246
+[2017-11-09T14:24:48.794-0100][info ][gc,phases      ] GC(11) Phase 1: Mark live objects 51.952ms
+[2017-11-09T14:24:48.794-0100][info ][gc,phases,start] GC(11) Phase 2: Compute new object addresses
+[2017-11-09T14:24:48.804-0100][info ][gc,phases      ] GC(11) Phase 2: Compute new object addresses 9.176ms
+[2017-11-09T14:24:48.804-0100][info ][gc,phases,start] GC(11) Phase 3: Adjust pointers
+[2017-11-09T14:24:48.828-0100][info ][gc,phases      ] GC(11) Phase 3: Adjust pointers 24.722ms
+[2017-11-09T14:24:48.829-0100][info ][gc,phases,start] GC(11) Phase 4: Move objects
+[2017-11-09T14:24:48.836-0100][info ][gc,phases      ] GC(11) Phase 4: Move objects 7.348ms
+[2017-11-09T14:24:48.836-0100][info ][gc             ] GC(11) Pause Full (Allocation Failure) 55M->29M(61M) 95.117ms
+[2017-11-09T14:24:48.837-0100][info ][gc,heap        ] GC(10) DefNew: 19647K->0K(19648K)
+[2017-11-09T14:24:48.837-0100][info ][gc,heap        ] GC(10) Tenured: 37322K->30675K(43712K)
+[2017-11-09T14:24:48.837-0100][info ][gc,metaspace   ] GC(10) Metaspace: 43206K->43206K(1091584K)
+[2017-11-09T14:24:48.838-0100][info ][gc             ] GC(10) Pause Young (Allocation Failure) 55M->29M(61M) 96.883ms
+[2017-11-09T14:24:48.838-0100][info ][gc,cpu         ] GC(10) User=0.12s Sys=0.00s Real=0.09s
+[2017-11-09T14:24:48.838-0100][info ][safepoint      ] Total time for which application threads were stopped: 0.1015746 seconds, Stopping threads took: 0.0043014 seconds
+[2017-11-09T14:24:48.924-0100][info ][safepoint      ] Application time: 0.0857119 seconds
+[2017-11-09T14:24:48.929-0100][info ][safepoint      ] Total time for which application threads were stopped: 0.0047008 seconds, Stopping threads took: 0.0039324 seconds
+[2017-11-09T14:24:48.942-0100][info ][safepoint      ] Application time: 0.0133224 seconds
+[2017-11-09T14:24:48.945-0100][info ][safepoint      ] Total time for which application threads were stopped: 0.0027167 seconds, Stopping threads took: 0.0021063 seconds
+[2017-11-09T14:24:48.992-0100][info ][safepoint      ] Application time: 0.0473364 seconds
+[2017-11-09T14:24:48.993-0100][info ][gc,start       ] GC(12) Pause Young (Allocation Failure)
+[2017-11-09T14:24:49.004-0100][debug][gc,ref         ] GC(12) SoftReference 0.003ms
+[2017-11-09T14:24:49.004-0100][debug][gc,ref         ] GC(12) WeakReference 0.017ms
+[2017-11-09T14:24:49.005-0100][debug][gc,ref         ] GC(12) FinalReference 1.115ms
+[2017-11-09T14:24:49.005-0100][debug][gc,ref         ] GC(12) PhantomReference 0.013ms
+[2017-11-09T14:24:49.005-0100][debug][gc,ref         ] GC(12) JNI Weak Reference 0.031ms
+[2017-11-09T14:24:49.005-0100][debug][gc,ref         ] GC(12) Ref Counts: Soft: 0 Weak: 207 Final: 1636 Phantom: 126
+[2017-11-09T14:24:49.005-0100][debug][gc,age         ] GC(12) Desired survivor size 1114112 bytes, new threshold 1 (max threshold 15)
+[2017-11-09T14:24:49.005-0100][trace][gc,age         ] GC(12) Age table with threshold 1 (max threshold 15)
+[2017-11-09T14:24:49.005-0100][trace][gc,age         ] GC(12) - age   1:    2228216 bytes,    2228216 total
+[2017-11-09T14:24:49.005-0100][info ][gc,heap        ] GC(12) DefNew: 17472K->2175K(19648K)
+[2017-11-09T14:24:49.005-0100][info ][gc,heap        ] GC(12) Tenured: 30675K->33712K(43712K)
+[2017-11-09T14:24:49.005-0100][info ][gc,metaspace   ] GC(12) Metaspace: 47025K->47025K(1095680K)
+[2017-11-09T14:24:49.005-0100][info ][gc             ] GC(12) Pause Young (Allocation Failure) 47M->35M(61M) 11.952ms
+[2017-11-09T14:24:49.005-0100][info ][gc,cpu         ] GC(12) User=0.02s Sys=0.00s Real=0.01s
+[2017-11-09T14:24:49.005-0100][info ][safepoint      ] Total time for which application threads were stopped: 0.0126679 seconds, Stopping threads took: 0.0004025 seconds
+[2017-11-09T14:24:49.014-0100][info ][safepoint      ] Application time: 0.0089983 seconds
+[2017-11-09T14:24:49.015-0100][info ][safepoint      ] Total time for which application threads were stopped: 0.0006429 seconds, Stopping threads took: 0.0001020 seconds
+[2017-11-09T14:24:49.060-0100][info ][safepoint      ] Application time: 0.0451508 seconds
+[2017-11-09T14:24:49.063-0100][info ][gc,start       ] GC(13) Pause Young (Allocation Failure)
+[2017-11-09T14:24:49.071-0100][debug][gc,ref         ] GC(13) SoftReference 0.003ms
+[2017-11-09T14:24:49.071-0100][debug][gc,ref         ] GC(13) WeakReference 0.007ms
+[2017-11-09T14:24:49.071-0100][debug][gc,ref         ] GC(13) FinalReference 0.477ms
+[2017-11-09T14:24:49.071-0100][debug][gc,ref         ] GC(13) PhantomReference 0.005ms
+[2017-11-09T14:24:49.072-0100][debug][gc,ref         ] GC(13) JNI Weak Reference 0.029ms
+[2017-11-09T14:24:49.072-0100][debug][gc,ref         ] GC(13) Ref Counts: Soft: 0 Weak: 81 Final: 710 Phantom: 55
+[2017-11-09T14:24:49.072-0100][debug][gc,age         ] GC(13) Desired survivor size 1114112 bytes, new threshold 1 (max threshold 15)
+[2017-11-09T14:24:49.072-0100][trace][gc,age         ] GC(13) Age table with threshold 1 (max threshold 15)
+[2017-11-09T14:24:49.072-0100][trace][gc,age         ] GC(13) - age   1:    2228216 bytes,    2228216 total
+[2017-11-09T14:24:49.072-0100][info ][gc,heap        ] GC(13) DefNew: 19647K->2175K(19648K)
+[2017-11-09T14:24:49.072-0100][info ][gc,heap        ] GC(13) Tenured: 33712K->37181K(43712K)
+[2017-11-09T14:24:49.072-0100][info ][gc,metaspace   ] GC(13) Metaspace: 48759K->48759K(1097728K)
+[2017-11-09T14:24:49.072-0100][info ][gc             ] GC(13) Pause Young (Allocation Failure) 52M->38M(61M) 8.958ms
+[2017-11-09T14:24:49.072-0100][info ][gc,cpu         ] GC(13) User=0.02s Sys=0.00s Real=0.01s
+[2017-11-09T14:24:49.072-0100][info ][safepoint      ] Total time for which application threads were stopped: 0.0116020 seconds, Stopping threads took: 0.0023358 seconds
+[2017-11-09T14:24:49.180-0100][info ][safepoint      ] Application time: 0.1077923 seconds
+[2017-11-09T14:24:49.183-0100][info ][safepoint      ] Total time for which application threads were stopped: 0.0036036 seconds, Stopping threads took: 0.0027669 seconds
+[2017-11-09T14:24:49.311-0100][info ][safepoint      ] Application time: 0.1279039 seconds
+[2017-11-09T14:24:49.312-0100][info ][gc,start       ] GC(14) Pause Young (Allocation Failure)
+[2017-11-09T14:24:49.322-0100][debug][gc,ref         ] GC(14) SoftReference 0.002ms
+[2017-11-09T14:24:49.322-0100][debug][gc,ref         ] GC(14) WeakReference 0.013ms
+[2017-11-09T14:24:49.324-0100][debug][gc,ref         ] GC(14) FinalReference 2.159ms
+[2017-11-09T14:24:49.325-0100][debug][gc,ref         ] GC(14) PhantomReference 0.007ms
+[2017-11-09T14:24:49.325-0100][debug][gc,ref         ] GC(14) JNI Weak Reference 0.030ms
+[2017-11-09T14:24:49.325-0100][debug][gc,ref         ] GC(14) Ref Counts: Soft: 0 Weak: 167 Final: 1690 Phantom: 47
+[2017-11-09T14:24:49.325-0100][debug][gc,age         ] GC(14) Desired survivor size 1114112 bytes, new threshold 1 (max threshold 15)
+[2017-11-09T14:24:49.325-0100][trace][gc,age         ] GC(14) Age table with threshold 1 (max threshold 15)
+[2017-11-09T14:24:49.325-0100][trace][gc,age         ] GC(14) - age   1:    2228216 bytes,    2228216 total
+[2017-11-09T14:24:49.325-0100][info ][gc,heap        ] GC(14) DefNew: 19642K->2175K(19648K)
+[2017-11-09T14:24:49.325-0100][info ][gc,heap        ] GC(14) Tenured: 37181K->42487K(43712K)
+[2017-11-09T14:24:49.325-0100][info ][gc,metaspace   ] GC(14) Metaspace: 54164K->54164K(1101824K)
+[2017-11-09T14:24:49.325-0100][info ][gc             ] GC(14) Pause Young (Allocation Failure) 55M->43M(61M) 13.138ms
+[2017-11-09T14:24:49.325-0100][info ][gc,cpu         ] GC(14) User=0.02s Sys=0.00s Real=0.01s
+[2017-11-09T14:24:49.325-0100][info ][safepoint      ] Total time for which application threads were stopped: 0.0135403 seconds, Stopping threads took: 0.0000831 seconds
+[2017-11-09T14:24:49.530-0100][info ][safepoint      ] Application time: 0.2046489 seconds
+[2017-11-09T14:24:49.530-0100][info ][safepoint      ] Total time for which application threads were stopped: 0.0002823 seconds, Stopping threads took: 0.0000339 seconds
+[2017-11-09T14:24:49.530-0100][info ][safepoint      ] Application time: 0.0000355 seconds
+[2017-11-09T14:24:49.530-0100][info ][gc,start       ] GC(15) Pause Young (GCLocker Initiated GC)
+[2017-11-09T14:24:49.530-0100][info ][gc,heap        ] GC(15) DefNew: 19639K->19639K(19648K)
+[2017-11-09T14:24:49.530-0100][info ][gc,heap        ] GC(15) Tenured: 42501K->42501K(43712K)
+[2017-11-09T14:24:49.530-0100][info ][gc,metaspace   ] GC(15) Metaspace: 58196K->58196K(1105920K)
+[2017-11-09T14:24:49.530-0100][info ][gc             ] GC(15) Pause Young (GCLocker Initiated GC) 60M->60M(61M) 0.100ms
+[2017-11-09T14:24:49.530-0100][info ][gc,cpu         ] GC(15) User=0.00s Sys=0.00s Real=0.00s
+[2017-11-09T14:24:49.530-0100][info ][gc,start       ] GC(16) Pause Full (GCLocker Initiated GC)
+[2017-11-09T14:24:49.531-0100][info ][gc,phases,start] GC(16) Phase 1: Mark live objects
+[2017-11-09T14:24:49.570-0100][debug][gc,ref         ] GC(16) SoftReference 0.001ms
+[2017-11-09T14:24:49.570-0100][debug][gc,ref         ] GC(16) WeakReference 0.032ms
+[2017-11-09T14:24:49.571-0100][debug][gc,ref         ] GC(16) FinalReference 0.481ms
+[2017-11-09T14:24:49.571-0100][debug][gc,ref         ] GC(16) PhantomReference 0.011ms
+[2017-11-09T14:24:49.571-0100][debug][gc,ref         ] GC(16) JNI Weak Reference 0.052ms
+[2017-11-09T14:24:49.571-0100][debug][gc,ref         ] GC(16) Ref Counts: Soft: 0 Weak: 323 Final: 2820 Phantom: 94
+[2017-11-09T14:24:49.593-0100][info ][gc,phases      ] GC(16) Phase 1: Mark live objects 61.952ms
+[2017-11-09T14:24:49.593-0100][info ][gc,phases,start] GC(16) Phase 2: Compute new object addresses
+[2017-11-09T14:24:49.602-0100][info ][gc,phases      ] GC(16) Phase 2: Compute new object addresses 8.786ms
+[2017-11-09T14:24:49.602-0100][info ][gc,phases,start] GC(16) Phase 3: Adjust pointers
+[2017-11-09T14:24:49.630-0100][info ][gc,phases      ] GC(16) Phase 3: Adjust pointers 27.548ms
+[2017-11-09T14:24:49.630-0100][info ][gc,phases,start] GC(16) Phase 4: Move objects
+[2017-11-09T14:24:49.639-0100][info ][gc,phases      ] GC(16) Phase 4: Move objects 9.125ms
+[2017-11-09T14:24:49.639-0100][info ][gc,heap        ] GC(16) DefNew: 19639K->0K(19648K)
+[2017-11-09T14:24:49.639-0100][info ][gc,heap        ] GC(16) Tenured: 42501K->33500K(43712K)
+[2017-11-09T14:24:49.639-0100][info ][gc,metaspace   ] GC(16) Metaspace: 58196K->58196K(1105920K)
+[2017-11-09T14:24:49.641-0100][info ][gc             ] GC(16) Pause Full (GCLocker Initiated GC) 60M->32M(61M) 110.530ms
+[2017-11-09T14:24:49.641-0100][info ][gc,cpu         ] GC(16) User=0.23s Sys=0.00s Real=0.11s
+[2017-11-09T14:24:49.641-0100][info ][safepoint      ] Total time for which application threads were stopped: 0.1109456 seconds, Stopping threads took: 0.0000164 seconds
+[2017-11-09T14:24:50.273-0100][info ][safepoint      ] Application time: 0.6316897 seconds
+[2017-11-09T14:24:50.274-0100][info ][safepoint      ] Total time for which application threads were stopped: 0.0014428 seconds, Stopping threads took: 0.0000539 seconds
+[2017-11-09T14:24:53.638-0100][info ][safepoint      ] Application time: 3.3642022 seconds
+[2017-11-09T14:24:53.639-0100][info ][safepoint      ] Total time for which application threads were stopped: 0.0005322 seconds, Stopping threads took: 0.0001555 seconds
+[2017-11-09T14:24:53.643-0100][info ][gc,heap,exit   ] Heap
+[2017-11-09T14:24:53.643-0100][info ][gc,heap,exit   ]  def new generation   total 19648K, used 16317K [0x00000007bc000000, 0x00000007bd550000, 0x00000007bd550000)
+[2017-11-09T14:24:53.643-0100][info ][gc,heap,exit   ]   eden space 17472K,  93% used [0x00000007bc000000, 0x00000007bcfef470, 0x00000007bd110000)
+[2017-11-09T14:24:53.643-0100][info ][gc,heap,exit   ]   from space 2176K,   0% used [0x00000007bd330000, 0x00000007bd330000, 0x00000007bd550000)
+[2017-11-09T14:24:53.643-0100][info ][gc,heap,exit   ]   to   space 2176K,   0% used [0x00000007bd110000, 0x00000007bd110000, 0x00000007bd330000)
+[2017-11-09T14:24:53.643-0100][info ][gc,heap,exit   ]  tenured generation   total 43712K, used 33500K [0x00000007bd550000, 0x00000007c0000000, 0x00000007c0000000)
+[2017-11-09T14:24:53.643-0100][info ][gc,heap,exit   ]    the space 43712K,  76% used [0x00000007bd550000, 0x00000007bf607138, 0x00000007bf607200, 0x00000007c0000000)
+[2017-11-09T14:24:53.643-0100][info ][gc,heap,exit   ]  Metaspace       used 59363K, capacity 67442K, committed 67840K, reserved 1107968K
+[2017-11-09T14:24:53.643-0100][info ][gc,heap,exit   ]   class space    used 7389K, capacity 9574K, committed 9728K, reserved 1048576K
+[2017-11-09T14:24:53.643-0100][info ][safepoint      ] Application time: 0.0041914 seconds

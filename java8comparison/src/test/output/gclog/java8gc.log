@@ -1,0 +1,115 @@
+Java HotSpot(TM) 64-Bit Server VM (25.152-b16) for bsd-amd64 JRE (1.8.0_152-b16), built on Sep 14 2017 02:31:13 by "java_re" with gcc 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
+Memory: 4k page, physical 16777216k(609468k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:InitialHeapSize=67108864 -XX:MaxHeapSize=67108864 -XX:MaxMetaspaceSize=268435456 -XX:MetaspaceSize=67108864 -XX:+PrintGC -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCCause -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintReferenceGC -XX:+PrintTenuringDistribution -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseSerialGC 
+2017-11-09T14:23:58.862-0100: 0.179: Total time for which application threads were stopped: 0.0000916 seconds, Stopping threads took: 0.0000105 seconds
+2017-11-09T14:23:59.071-0100: 0.388: Total time for which application threads were stopped: 0.0001626 seconds, Stopping threads took: 0.0000131 seconds
+2017-11-09T14:23:59.076-0100: 0.393: Total time for which application threads were stopped: 0.0000752 seconds, Stopping threads took: 0.0000073 seconds
+2017-11-09T14:23:59.099-0100: 0.417: Total time for which application threads were stopped: 0.0001067 seconds, Stopping threads took: 0.0000127 seconds
+2017-11-09T14:23:59.155-0100: 0.472: [GC (Allocation Failure) 2017-11-09T14:23:59.155-0100: 0.472: [DefNew2017-11-09T14:23:59.161-0100: 0.478: [SoftReference, 0 refs, 0.0000596 secs]2017-11-09T14:23:59.161-0100: 0.478: [WeakReference, 107 refs, 0.0000162 secs]2017-11-09T14:23:59.161-0100: 0.478: [FinalReference, 716 refs, 0.0009658 secs]2017-11-09T14:23:59.162-0100: 0.479: [PhantomReference, 0 refs, 1 refs, 0.0000169 secs]2017-11-09T14:23:59.162-0100: 0.479: [JNI Weak Reference, 0.0000252 secs]
+Desired survivor size 1114112 bytes, new threshold 1 (max 15)
+- age   1:    2228224 bytes,    2228224 total
+: 17472K->2176K(19648K), 0.0072162 secs] 17472K->3421K(63360K), 0.0073265 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2017-11-09T14:23:59.162-0100: 0.479: Total time for which application threads were stopped: 0.0074719 seconds, Stopping threads took: 0.0000263 seconds
+2017-11-09T14:23:59.220-0100: 0.537: Total time for which application threads were stopped: 0.0001410 seconds, Stopping threads took: 0.0000121 seconds
+2017-11-09T14:23:59.224-0100: 0.541: Total time for which application threads were stopped: 0.0001044 seconds, Stopping threads took: 0.0000112 seconds
+2017-11-09T14:23:59.282-0100: 0.600: Total time for which application threads were stopped: 0.0001543 seconds, Stopping threads took: 0.0000107 seconds
+2017-11-09T14:23:59.314-0100: 0.631: Total time for which application threads were stopped: 0.0001511 seconds, Stopping threads took: 0.0000117 seconds
+2017-11-09T14:23:59.318-0100: 0.635: Total time for which application threads were stopped: 0.0001176 seconds, Stopping threads took: 0.0000094 seconds
+2017-11-09T14:23:59.326-0100: 0.643: Total time for which application threads were stopped: 0.0001333 seconds, Stopping threads took: 0.0000102 seconds
+2017-11-09T14:23:59.337-0100: 0.655: Total time for which application threads were stopped: 0.0001408 seconds, Stopping threads took: 0.0000109 seconds
+2017-11-09T14:23:59.797-0100: 1.114: [GC (Allocation Failure) 2017-11-09T14:23:59.797-0100: 1.115: [DefNew2017-11-09T14:23:59.811-0100: 1.128: [SoftReference, 0 refs, 0.0000762 secs]2017-11-09T14:23:59.811-0100: 1.128: [WeakReference, 118 refs, 0.0000258 secs]2017-11-09T14:23:59.811-0100: 1.128: [FinalReference, 754 refs, 0.0016655 secs]2017-11-09T14:23:59.813-0100: 1.130: [PhantomReference, 0 refs, 1 refs, 0.0000277 secs]2017-11-09T14:23:59.813-0100: 1.130: [JNI Weak Reference, 0.0000416 secs]
+Desired survivor size 1114112 bytes, new threshold 1 (max 15)
+- age   1:    2228224 bytes,    2228224 total
+: 19648K->2176K(19648K), 0.0155076 secs] 20893K->6827K(63360K), 0.0155957 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2017-11-09T14:23:59.813-0100: 1.130: Total time for which application threads were stopped: 0.0157882 seconds, Stopping threads took: 0.0000138 seconds
+2017-11-09T14:23:59.911-0100: 1.228: Total time for which application threads were stopped: 0.0002020 seconds, Stopping threads took: 0.0000131 seconds
+2017-11-09T14:24:00.163-0100: 1.481: [GC (Allocation Failure) 2017-11-09T14:24:00.164-0100: 1.481: [DefNew2017-11-09T14:24:00.178-0100: 1.495: [SoftReference, 0 refs, 0.0000805 secs]2017-11-09T14:24:00.178-0100: 1.495: [WeakReference, 209 refs, 0.0000310 secs]2017-11-09T14:24:00.178-0100: 1.495: [FinalReference, 1692 refs, 0.0026763 secs]2017-11-09T14:24:00.180-0100: 1.498: [PhantomReference, 0 refs, 1 refs, 0.0000239 secs]2017-11-09T14:24:00.180-0100: 1.498: [JNI Weak Reference, 0.0000237 secs]
+Desired survivor size 1114112 bytes, new threshold 1 (max 15)
+- age   1:    2228224 bytes,    2228224 total
+: 19648K->2176K(19648K), 0.0170528 secs] 24299K->12218K(63360K), 0.0171469 secs] [Times: user=0.01 sys=0.00, real=0.02 secs] 
+2017-11-09T14:24:00.181-0100: 1.498: Total time for which application threads were stopped: 0.0173366 seconds, Stopping threads took: 0.0000140 seconds
+2017-11-09T14:24:00.306-0100: 1.623: [GC (Allocation Failure) 2017-11-09T14:24:00.306-0100: 1.624: [DefNew2017-11-09T14:24:00.315-0100: 1.632: [SoftReference, 0 refs, 0.0000805 secs]2017-11-09T14:24:00.315-0100: 1.632: [WeakReference, 46 refs, 0.0000166 secs]2017-11-09T14:24:00.315-0100: 1.632: [FinalReference, 676 refs, 0.0006658 secs]2017-11-09T14:24:00.316-0100: 1.633: [PhantomReference, 0 refs, 2 refs, 0.0000146 secs]2017-11-09T14:24:00.316-0100: 1.633: [JNI Weak Reference, 0.0000186 secs]
+Desired survivor size 1114112 bytes, new threshold 1 (max 15)
+- age   1:    2228224 bytes,    2228224 total
+: 19648K->2176K(19648K), 0.0094502 secs] 29690K->14122K(63360K), 0.0095211 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2017-11-09T14:24:00.316-0100: 1.633: Total time for which application threads were stopped: 0.0097612 seconds, Stopping threads took: 0.0000566 seconds
+2017-11-09T14:24:00.333-0100: 1.650: [GC (Allocation Failure) 2017-11-09T14:24:00.333-0100: 1.650: [DefNew2017-11-09T14:24:00.339-0100: 1.657: [SoftReference, 0 refs, 0.0000727 secs]2017-11-09T14:24:00.339-0100: 1.657: [WeakReference, 28 refs, 0.0000160 secs]2017-11-09T14:24:00.339-0100: 1.657: [FinalReference, 141 refs, 0.0000783 secs]2017-11-09T14:24:00.339-0100: 1.657: [PhantomReference, 0 refs, 0 refs, 0.0000132 secs]2017-11-09T14:24:00.339-0100: 1.657: [JNI Weak Reference, 0.0000177 secs]
+Desired survivor size 1114112 bytes, new threshold 1 (max 15)
+- age   1:    1369320 bytes,    1369320 total
+: 19648K->1337K(19648K), 0.0067989 secs] 31594K->14121K(63360K), 0.0068726 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2017-11-09T14:24:00.339-0100: 1.657: Total time for which application threads were stopped: 0.0073810 seconds, Stopping threads took: 0.0003334 seconds
+2017-11-09T14:24:00.386-0100: 1.704: [GC (Allocation Failure) 2017-11-09T14:24:00.386-0100: 1.704: [DefNew2017-11-09T14:24:00.394-0100: 1.712: [SoftReference, 0 refs, 0.0000702 secs]2017-11-09T14:24:00.394-0100: 1.712: [WeakReference, 66 refs, 0.0000206 secs]2017-11-09T14:24:00.394-0100: 1.712: [FinalReference, 378 refs, 0.0003398 secs]2017-11-09T14:24:00.395-0100: 1.712: [PhantomReference, 0 refs, 1 refs, 0.0000163 secs]2017-11-09T14:24:00.395-0100: 1.712: [JNI Weak Reference, 0.0000256 secs]
+Desired survivor size 1114112 bytes, new threshold 1 (max 15)
+- age   1:    2228056 bytes,    2228056 total
+: 18803K->2175K(19648K), 0.0086132 secs] 31588K->16005K(63360K), 0.0087060 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2017-11-09T14:24:00.395-0100: 1.712: Total time for which application threads were stopped: 0.0094975 seconds, Stopping threads took: 0.0006229 seconds
+2017-11-09T14:24:00.651-0100: 1.968: [GC (Allocation Failure) 2017-11-09T14:24:00.651-0100: 1.968: [DefNew2017-11-09T14:24:00.659-0100: 1.977: [SoftReference, 0 refs, 0.0000737 secs]2017-11-09T14:24:00.659-0100: 1.977: [WeakReference, 118 refs, 0.0000226 secs]2017-11-09T14:24:00.659-0100: 1.977: [FinalReference, 1151 refs, 0.0017124 secs]2017-11-09T14:24:00.661-0100: 1.979: [PhantomReference, 0 refs, 0 refs, 0.0000207 secs]2017-11-09T14:24:00.661-0100: 1.979: [JNI Weak Reference, 0.0000289 secs]
+Desired survivor size 1114112 bytes, new threshold 1 (max 15)
+- age   1:    2228216 bytes,    2228216 total
+: 19646K->2175K(19648K), 0.0101277 secs] 33476K->19708K(63360K), 0.0102228 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2017-11-09T14:24:00.661-0100: 1.979: Total time for which application threads were stopped: 0.0104473 seconds, Stopping threads took: 0.0000296 seconds
+2017-11-09T14:24:00.684-0100: 2.001: [GC (Allocation Failure) 2017-11-09T14:24:00.684-0100: 2.001: [DefNew2017-11-09T14:24:00.688-0100: 2.006: [SoftReference, 0 refs, 0.0000679 secs]2017-11-09T14:24:00.689-0100: 2.006: [WeakReference, 5 refs, 0.0000138 secs]2017-11-09T14:24:00.689-0100: 2.006: [FinalReference, 112 refs, 0.0000622 secs]2017-11-09T14:24:00.689-0100: 2.006: [PhantomReference, 0 refs, 0 refs, 0.0000130 secs]2017-11-09T14:24:00.689-0100: 2.006: [JNI Weak Reference, 0.0000203 secs]
+Desired survivor size 1114112 bytes, new threshold 15 (max 15)
+- age   1:     457568 bytes,     457568 total
+: 19647K->446K(19648K), 0.0051123 secs] 37180K->19156K(63360K), 0.0051968 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2017-11-09T14:24:00.689-0100: 2.006: Total time for which application threads were stopped: 0.0054163 seconds, Stopping threads took: 0.0000216 seconds
+2017-11-09T14:24:00.890-0100: 2.207: [GC (Allocation Failure) 2017-11-09T14:24:00.890-0100: 2.208: [DefNew2017-11-09T14:24:00.898-0100: 2.215: [SoftReference, 0 refs, 0.0000595 secs]2017-11-09T14:24:00.898-0100: 2.215: [WeakReference, 115 refs, 0.0000172 secs]2017-11-09T14:24:00.898-0100: 2.215: [FinalReference, 1125 refs, 0.0015275 secs]2017-11-09T14:24:00.899-0100: 2.217: [PhantomReference, 0 refs, 0 refs, 0.0000165 secs]2017-11-09T14:24:00.899-0100: 2.217: [JNI Weak Reference, 0.0000235 secs]
+Desired survivor size 1114112 bytes, new threshold 1 (max 15)
+- age   1:    2022200 bytes,    2022200 total
+- age   2:     206024 bytes,    2228224 total
+: 17918K->2176K(19648K), 0.0091521 secs] 36628K->23074K(63360K), 0.0092383 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2017-11-09T14:24:00.899-0100: 2.217: Total time for which application threads were stopped: 0.0103126 seconds, Stopping threads took: 0.0008661 seconds
+2017-11-09T14:24:01.038-0100: 2.355: [GC (Allocation Failure) 2017-11-09T14:24:01.038-0100: 2.355: [DefNew2017-11-09T14:24:01.048-0100: 2.366: [SoftReference, 0 refs, 0.0000684 secs]2017-11-09T14:24:01.048-0100: 2.366: [WeakReference, 305 refs, 0.0000249 secs]2017-11-09T14:24:01.048-0100: 2.366: [FinalReference, 1742 refs, 0.0022197 secs]2017-11-09T14:24:01.051-0100: 2.368: [PhantomReference, 0 refs, 0 refs, 0.0000181 secs]2017-11-09T14:24:01.051-0100: 2.368: [JNI Weak Reference, 0.0000307 secs]
+Desired survivor size 1114112 bytes, new threshold 1 (max 15)
+- age   1:    2228216 bytes,    2228216 total
+: 19648K->2175K(19648K), 0.0130398 secs] 40546K->27817K(63360K), 0.0131316 secs] [Times: user=0.01 sys=0.00, real=0.02 secs] 
+2017-11-09T14:24:01.051-0100: 2.368: Total time for which application threads were stopped: 0.0133540 seconds, Stopping threads took: 0.0000331 seconds
+2017-11-09T14:24:01.249-0100: 2.566: [GC (Allocation Failure) 2017-11-09T14:24:01.249-0100: 2.567: [DefNew2017-11-09T14:24:01.266-0100: 2.584: [SoftReference, 0 refs, 0.0000666 secs]2017-11-09T14:24:01.266-0100: 2.584: [WeakReference, 182 refs, 0.0000245 secs]2017-11-09T14:24:01.266-0100: 2.584: [FinalReference, 882 refs, 0.0011331 secs]2017-11-09T14:24:01.268-0100: 2.585: [PhantomReference, 0 refs, 2 refs, 0.0000146 secs]2017-11-09T14:24:01.268-0100: 2.585: [JNI Weak Reference, 0.0000279 secs]
+Desired survivor size 1114112 bytes, new threshold 1 (max 15)
+- age   1:    2228224 bytes,    2228224 total
+: 19647K->2176K(19648K), 0.0185940 secs] 45289K->31756K(63360K), 0.0187350 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2017-11-09T14:24:01.268-0100: 2.585: Total time for which application threads were stopped: 0.0256044 seconds, Stopping threads took: 0.0063999 seconds
+2017-11-09T14:24:01.409-0100: 2.726: [GC (Allocation Failure) 2017-11-09T14:24:01.409-0100: 2.726: [DefNew2017-11-09T14:24:01.424-0100: 2.742: [SoftReference, 0 refs, 0.0000669 secs]2017-11-09T14:24:01.425-0100: 2.742: [WeakReference, 125 refs, 0.0000213 secs]2017-11-09T14:24:01.425-0100: 2.742: [FinalReference, 1474 refs, 0.0019596 secs]2017-11-09T14:24:01.427-0100: 2.744: [PhantomReference, 0 refs, 1 refs, 0.0000217 secs]2017-11-09T14:24:01.427-0100: 2.744: [JNI Weak Reference, 0.0000314 secs]
+Desired survivor size 1114112 bytes, new threshold 1 (max 15)
+- age   1:    2228224 bytes,    2228224 total
+: 19648K->2176K(19648K), 0.0180502 secs] 49228K->36399K(63360K), 0.0181830 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2017-11-09T14:24:01.427-0100: 2.744: Total time for which application threads were stopped: 0.0237204 seconds, Stopping threads took: 0.0052166 seconds
+2017-11-09T14:24:01.465-0100: 2.783: Total time for which application threads were stopped: 0.0018158 seconds, Stopping threads took: 0.0010410 seconds
+2017-11-09T14:24:01.514-0100: 2.831: [GC (Allocation Failure) 2017-11-09T14:24:01.514-0100: 2.831: [DefNew2017-11-09T14:24:01.529-0100: 2.847: [SoftReference, 0 refs, 0.0000874 secs]2017-11-09T14:24:01.529-0100: 2.847: [WeakReference, 117 refs, 0.0000282 secs]2017-11-09T14:24:01.529-0100: 2.847: [FinalReference, 920 refs, 0.0012756 secs]2017-11-09T14:24:01.531-0100: 2.848: [PhantomReference, 0 refs, 0 refs, 0.0000223 secs]2017-11-09T14:24:01.531-0100: 2.848: [JNI Weak Reference, 0.0000404 secs]
+Desired survivor size 1114112 bytes, new threshold 1 (max 15)
+- age   1:    2228216 bytes,    2228216 total
+: 19648K->2175K(19648K), 0.0168596 secs] 53871K->38965K(63360K), 0.0169963 secs] [Times: user=0.05 sys=0.01, real=0.02 secs] 
+2017-11-09T14:24:01.531-0100: 2.849: Total time for which application threads were stopped: 0.0195401 seconds, Stopping threads took: 0.0021031 seconds
+2017-11-09T14:24:01.685-0100: 3.003: Total time for which application threads were stopped: 0.0048541 seconds, Stopping threads took: 0.0042547 seconds
+2017-11-09T14:24:01.691-0100: 3.009: [GC (Allocation Failure) 2017-11-09T14:24:01.691-0100: 3.009: [DefNew2017-11-09T14:24:01.703-0100: 3.020: [SoftReference, 0 refs, 0.0001120 secs]2017-11-09T14:24:01.703-0100: 3.020: [WeakReference, 64 refs, 0.0000241 secs]2017-11-09T14:24:01.703-0100: 3.020: [FinalReference, 1319 refs, 0.0022354 secs]2017-11-09T14:24:01.705-0100: 3.023: [PhantomReference, 0 refs, 1 refs, 0.0000239 secs]2017-11-09T14:24:01.705-0100: 3.023: [JNI Weak Reference, 0.0000372 secs]
+Desired survivor size 1114112 bytes, new threshold 1 (max 15)
+- age   1:    2228208 bytes,    2228208 total
+: 19613K->2175K(19648K), 0.0139145 secs] 56402K->42202K(63360K), 0.0140368 secs] [Times: user=0.01 sys=0.01, real=0.01 secs] 
+2017-11-09T14:24:01.705-0100: 3.023: Total time for which application threads were stopped: 0.0166294 seconds, Stopping threads took: 0.0022731 seconds
+2017-11-09T14:24:01.907-0100: 3.224: [GC (Allocation Failure) 2017-11-09T14:24:01.907-0100: 3.224: [DefNew: 19645K->19645K(19648K), 0.0000264 secs]2017-11-09T14:24:01.907-0100: 3.224: [Tenured2017-11-09T14:24:01.940-0100: 3.258: [SoftReference, 0 refs, 0.0000735 secs]2017-11-09T14:24:01.940-0100: 3.258: [WeakReference, 472 refs, 0.0000574 secs]2017-11-09T14:24:01.940-0100: 3.258: [FinalReference, 1600 refs, 0.0003596 secs]2017-11-09T14:24:01.941-0100: 3.258: [PhantomReference, 0 refs, 11 refs, 0.0000165 secs]2017-11-09T14:24:01.941-0100: 3.258: [JNI Weak Reference, 0.0000526 secs]: 40026K->24096K(43712K), 0.0873846 secs] 59671K->24096K(63360K), [Metaspace: 51155K->51155K(1099776K)], 0.0877367 secs] [Times: user=0.08 sys=0.00, real=0.09 secs] 
+2017-11-09T14:24:01.995-0100: 3.312: Total time for which application threads were stopped: 0.0881764 seconds, Stopping threads took: 0.0001058 seconds
+2017-11-09T14:24:02.074-0100: 3.391: Total time for which application threads were stopped: 0.0004348 seconds, Stopping threads took: 0.0000504 seconds
+2017-11-09T14:24:02.207-0100: 3.525: [GC (Allocation Failure) 2017-11-09T14:24:02.208-0100: 3.525: [DefNew2017-11-09T14:24:02.215-0100: 3.532: [SoftReference, 0 refs, 0.0000750 secs]2017-11-09T14:24:02.215-0100: 3.532: [WeakReference, 64 refs, 0.0000187 secs]2017-11-09T14:24:02.215-0100: 3.532: [FinalReference, 911 refs, 0.0005337 secs]2017-11-09T14:24:02.215-0100: 3.533: [PhantomReference, 0 refs, 5 refs, 0.0000169 secs]2017-11-09T14:24:02.216-0100: 3.533: [JNI Weak Reference, 0.0000305 secs]
+Desired survivor size 1114112 bytes, new threshold 1 (max 15)
+- age   1:    2228224 bytes,    2228224 total
+: 17472K->2176K(19648K), 0.0080366 secs] 41568K->27525K(63360K), 0.0081548 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2017-11-09T14:24:02.216-0100: 3.533: Total time for which application threads were stopped: 0.0085160 seconds, Stopping threads took: 0.0000456 seconds
+2017-11-09T14:24:02.793-0100: 4.111: Total time for which application threads were stopped: 0.0014410 seconds, Stopping threads took: 0.0000812 seconds
+2017-11-09T14:24:05.785-0100: 7.102: [GC (Allocation Failure) 2017-11-09T14:24:05.785-0100: 7.102: [DefNew2017-11-09T14:24:05.794-0100: 7.111: [SoftReference, 0 refs, 0.0000702 secs]2017-11-09T14:24:05.794-0100: 7.111: [WeakReference, 30 refs, 0.0000173 secs]2017-11-09T14:24:05.794-0100: 7.111: [FinalReference, 387 refs, 0.0003117 secs]2017-11-09T14:24:05.794-0100: 7.112: [PhantomReference, 0 refs, 1 refs, 0.0000171 secs]2017-11-09T14:24:05.794-0100: 7.112: [JNI Weak Reference, 0.0000318 secs]
+Desired survivor size 1114112 bytes, new threshold 1 (max 15)
+- age   1:    1561472 bytes,    1561472 total
+: 19648K->1524K(19648K), 0.0096734 secs] 44997K->28345K(63360K), 0.0098291 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2017-11-09T14:24:05.794-0100: 7.112: Total time for which application threads were stopped: 0.0102163 seconds, Stopping threads took: 0.0001212 seconds
+2017-11-09T14:24:05.815-0100: 7.133: Total time for which application threads were stopped: 0.0001362 seconds, Stopping threads took: 0.0000364 seconds
+Heap
+ def new generation   total 19648K, used 3515K [0x00000007bc000000, 0x00000007bd550000, 0x00000007bd550000)
+  eden space 17472K,  11% used [0x00000007bc000000, 0x00000007bc1f1ac0, 0x00000007bd110000)
+  from space 2176K,  70% used [0x00000007bd110000, 0x00000007bd28d380, 0x00000007bd330000)
+  to   space 2176K,   0% used [0x00000007bd330000, 0x00000007bd330000, 0x00000007bd550000)
+ tenured generation   total 43712K, used 26820K [0x00000007bd550000, 0x00000007c0000000, 0x00000007c0000000)
+   the space 43712K,  61% used [0x00000007bd550000, 0x00000007bef81248, 0x00000007bef81400, 0x00000007c0000000)
+ Metaspace       used 54872K, capacity 62018K, committed 62336K, reserved 1101824K
+  class space    used 7163K, capacity 9254K, committed 9344K, reserved 1048576K
