@@ -8,37 +8,33 @@
 # Threads: 1 thread, will synchronize iterations
 # Benchmark mode: Throughput, ops/time
 
-# Run complete. Total time: 00:20:30
+# Run complete. Total time: 00:20:36
 
-Benchmark                                                  Mode  Cnt     Score      Error   Units
-Jsr310Benchmark.atZone                                    thrpt  100    10.974 ±    0.549  ops/us
-Jsr310Benchmark.atZone:·gc.alloc.rate                     thrpt  100  1160.438 ±   64.574  MB/sec
-Jsr310Benchmark.atZone:·gc.alloc.rate.norm                thrpt  100   166.400 ±    4.008    B/op
-Jsr310Benchmark.atZone:·gc.churn.PS_Eden_Space            thrpt  100  1586.138 ± 1621.960  MB/sec
-Jsr310Benchmark.atZone:·gc.churn.PS_Eden_Space.norm       thrpt  100   251.007 ±  257.167    B/op
-Jsr310Benchmark.atZone:·gc.count                          thrpt  100    10.000             counts
-Jsr310Benchmark.atZone:·gc.time                           thrpt  100    11.000                 ms
-Jsr310Benchmark.plusDays                                  thrpt  100    45.292 ±    0.119  ops/us
-Jsr310Benchmark.plusDays:·gc.alloc.rate                   thrpt  100   690.875 ±    1.808  MB/sec
-Jsr310Benchmark.plusDays:·gc.alloc.rate.norm              thrpt  100    24.000 ±    0.001    B/op
-Jsr310Benchmark.plusDays:·gc.count                        thrpt  100       ≈ 0             counts
-UuidBenchmark.parse                                       thrpt  100     2.823 ±    0.143  ops/us
-UuidBenchmark.parse:·gc.alloc.rate                        thrpt  100  2383.024 ±  120.436  MB/sec
-UuidBenchmark.parse:·gc.alloc.rate.norm                   thrpt  100  1328.001 ±    0.001    B/op
-UuidBenchmark.parse:·gc.churn.PS_Eden_Space               thrpt  100  3172.810 ± 2162.977  MB/sec
-UuidBenchmark.parse:·gc.churn.PS_Eden_Space.norm          thrpt  100  2016.059 ± 1402.785    B/op
-UuidBenchmark.parse:·gc.churn.PS_Survivor_Space           thrpt  100     0.033 ±    0.034  MB/sec
-UuidBenchmark.parse:·gc.churn.PS_Survivor_Space.norm      thrpt  100     0.019 ±    0.020    B/op
-UuidBenchmark.parse:·gc.count                             thrpt  100    20.000             counts
-UuidBenchmark.parse:·gc.time                              thrpt  100    22.000                 ms
-UuidBenchmark.serialize                                   thrpt  100     3.832 ±    0.225  ops/us
-UuidBenchmark.serialize:·gc.alloc.rate                    thrpt  100  2085.020 ±  122.400  MB/sec
-UuidBenchmark.serialize:·gc.alloc.rate.norm               thrpt  100   856.001 ±    0.001    B/op
-UuidBenchmark.serialize:·gc.churn.PS_Eden_Space           thrpt  100  3172.938 ± 2163.065  MB/sec
-UuidBenchmark.serialize:·gc.churn.PS_Eden_Space.norm      thrpt  100  1594.078 ± 1108.999    B/op
-UuidBenchmark.serialize:·gc.churn.PS_Survivor_Space       thrpt  100     0.033 ±    0.034  MB/sec
-UuidBenchmark.serialize:·gc.churn.PS_Survivor_Space.norm  thrpt  100     0.014 ±    0.014    B/op
-UuidBenchmark.serialize:·gc.count                         thrpt  100    20.000             counts
-UuidBenchmark.serialize:·gc.time                          thrpt  100    24.000                 ms
+Benchmark                                              Mode  Cnt     Score      Error   Units
+Jsr310Benchmark.atZone                                thrpt  100     7.454 ±    0.153  ops/us
+Jsr310Benchmark.atZone:·gc.alloc.rate                 thrpt  100   787.527 ±   22.430  MB/sec
+Jsr310Benchmark.atZone:·gc.alloc.rate.norm            thrpt  100   166.400 ±    4.008    B/op
+Jsr310Benchmark.atZone:·gc.churn.PS_Eden_Space        thrpt  100   951.930 ± 1284.314  MB/sec
+Jsr310Benchmark.atZone:·gc.churn.PS_Eden_Space.norm   thrpt  100   190.403 ±  257.996    B/op
+Jsr310Benchmark.atZone:·gc.count                      thrpt  100     6.000             counts
+Jsr310Benchmark.atZone:·gc.time                       thrpt  100     8.000                 ms
+Jsr310Benchmark.plusDays                              thrpt  100    34.759 ±    0.095  ops/us
+Jsr310Benchmark.plusDays:·gc.alloc.rate               thrpt  100   530.233 ±    1.451  MB/sec
+Jsr310Benchmark.plusDays:·gc.alloc.rate.norm          thrpt  100    24.000 ±    0.001    B/op
+Jsr310Benchmark.plusDays:·gc.count                    thrpt  100       ≈ 0             counts
+UuidBenchmark.parse                                   thrpt  100     1.790 ±    0.159  ops/us
+UuidBenchmark.parse:·gc.alloc.rate                    thrpt  100  1511.132 ±  134.175  MB/sec
+UuidBenchmark.parse:·gc.alloc.rate.norm               thrpt  100  1328.001 ±    0.001    B/op
+UuidBenchmark.parse:·gc.churn.PS_Eden_Space           thrpt  100  1586.500 ± 1622.330  MB/sec
+UuidBenchmark.parse:·gc.churn.PS_Eden_Space.norm      thrpt  100  1529.787 ± 1564.803    B/op
+UuidBenchmark.parse:·gc.count                         thrpt  100    10.000             counts
+UuidBenchmark.parse:·gc.time                          thrpt  100    10.000                 ms
+UuidBenchmark.serialize                               thrpt  100     2.516 ±    0.222  ops/us
+UuidBenchmark.serialize:·gc.alloc.rate                thrpt  100  1368.897 ±  121.053  MB/sec
+UuidBenchmark.serialize:·gc.alloc.rate.norm           thrpt  100   856.001 ±    0.001    B/op
+UuidBenchmark.serialize:·gc.churn.PS_Eden_Space       thrpt  100  1586.513 ± 1622.343  MB/sec
+UuidBenchmark.serialize:·gc.churn.PS_Eden_Space.norm  thrpt  100  1333.326 ± 1363.442    B/op
+UuidBenchmark.serialize:·gc.count                     thrpt  100    10.000             counts
+UuidBenchmark.serialize:·gc.time                      thrpt  100    10.000                 ms
 
 Benchmark result is saved to jmh-result.text
