@@ -1,7 +1,9 @@
 package com.netcetera.ncau.java9beyondmodules.newwith9;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.Objects;
 
@@ -44,5 +46,35 @@ class ObjectsTest {
     assertEquals(0, Objects.checkFromIndexSize(0, 10, 10));
     assertThrows(IndexOutOfBoundsException.class, () -> Objects.checkFromIndexSize(9, 2, 10));
   }
+  
+  /**
+   * The {@code isNull(Object object)} method was added in Java 1.8 and it is 
+   * repeated here because its usage is not as high as the author wishes it to be.
+   */
+  @Test
+  void isNull() {
+    assertTrue(Objects.isNull(null));
+    assertFalse(Objects.isNull(""));
+  }
 
+  /**
+   * The {@code nonNull(Object object)} method was added in Java 1.8 and it is 
+   * repeated here because its usage is not as high as the author wishes it to be.
+   */
+  @Test
+  void nonNull() {
+    assertFalse(Objects.nonNull(null));
+    assertTrue(Objects.nonNull(""));
+  }
+  
+  /**
+   * The {@code requireNonNull(Object object, Supplier<String> supplier)} method was added in 
+   * Java 1.8 and it is repeated here because its usage is not as high as the author wishes it to be.
+   */
+  @Test
+  void requireNonNull() {
+    assertThrows(NullPointerException.class, () -> Objects.requireNonNull(null, () -> "message"), "message");
+    assertEquals("value", Objects.requireNonNull("value", () -> "message"));
+  }
+  
 }
