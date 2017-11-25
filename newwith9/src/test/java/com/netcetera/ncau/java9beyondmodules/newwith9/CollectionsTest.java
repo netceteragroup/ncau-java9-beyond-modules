@@ -2,13 +2,13 @@ package com.netcetera.ncau.java9beyondmodules.newwith9;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsInAnyOrder;
+import static org.hamcrest.Matchers.hasEntry;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -30,13 +30,13 @@ class CollectionsTest {
 
   @Test
   void mapOf() {
-    assertThat(Map.of(1, 'A', 2, 'B'), Matchers.hasEntry(1, 'A'));
+    assertThat(Map.of(1, 'A', 2, 'B'), hasEntry(1, 'A'));
     assertThrows(UnsupportedOperationException.class, () -> Map.of(1, 'A').put(2, 'B'));
   }
 
   @Test
   void mapOfEntries() {
-    assertThat(Map.ofEntries(Map.entry(1, 'A'), Map.entry(2, 'B')), Matchers.hasEntry(1, 'A'));
+    assertThat(Map.ofEntries(Map.entry(1, 'A'), Map.entry(2, 'B')), hasEntry(1, 'A'));
     assertThrows(UnsupportedOperationException.class, () -> Map.ofEntries(Map.entry(1, 'A')).put(2, 'B'));
   }
 }
