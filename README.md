@@ -29,6 +29,7 @@ NCAU Java 9 Beyond Modules
  * [JavaOne 2017: Changes to the JDK Release Model](https://www.youtube.com/watch?v=UeyyLielXsU)
  * [Installed Directory Structure of JDK and JRE](https://docs.oracle.com/javase/9/install/installed-directory-structure-jdk-and-jre.htm#JSJIG-GUID-F7178F2F-DC92-47E9-8062-CA6B2612D350)
  * [JCMD](https://docs.oracle.com/javase/9/tools/jcmd.htm#JSWOR743)
+ *  [JDK 9 Release Notes: Removed APIs, Features, and Options](http://www.oracle.com/technetwork/java/javase/9-removed-features-3745614.html?printOnly=1)
 
 ### GC
  * [Garbage-First Garbage Collector Tuning](https://docs.oracle.com/javase/9/gctuning/garbage-first-garbage-collector-tuning.htm#JSGCT-GUID-90E30ACA-8040-432E-B3A0-1E0440AB556A)
