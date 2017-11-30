@@ -9,7 +9,7 @@ NCAU Java 9 Beyond Modules
    * `UuidBenchmark.java` contains microbenchmarks for UUID
    * `StringLayout.java` demonstrates string layout changes in Java 9
    * `Jsr310Test.java` shows bugs in the fixed the Java Date and Time API in Java 9
- * the `newwith9` contains code that demonstrates new APIs with Java 9
+ * the `newwith9` module contains code that demonstrates new APIs with Java 9
    * `jce.jsh` illustrates how to use JShell to check for unlimited strength Java Cryptography Extensions
    * `ObjectsTest.java` illustrates the methods added to the class `Objects` in Java 9
    * `CollectionsTest.java` illustrates the methods added to the classes `Set`, `List` and `Map` in Java 9
