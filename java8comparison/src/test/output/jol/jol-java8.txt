@@ -1,0 +1,52 @@
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+# Running 64-bit HotSpot VM.
+# Using compressed oop with 3-bit shift.
+# Using compressed klass with 3-bit shift.
+# WARNING | Compressed references base/shifts are guessed by the experiment!
+# WARNING | Therefore, computed addresses are just guesses, and ARE NOT RELIABLE.
+# WARNING | Make sure to attach Serviceability Agent to get the reliable addresses.
+# Objects are 8 bytes aligned.
+# Field sizes by type: 4, 1, 1, 2, 2, 4, 4, 8, 8 [bytes]
+# Array element sizes: 4, 1, 1, 2, 2, 4, 4, 8, 8 [bytes]
+
+java.lang.String object internals:
+ OFFSET  SIZE     TYPE DESCRIPTION                               VALUE
+      0     4          (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4          (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4          (object header)                           da 02 00 f8 (11011010 00000010 00000000 11111000) (-134216998)
+     12     4   char[] String.value                              [h, e, l, l, o,  , w, o, r, l, d]
+     16     4      int String.hash                               0
+     20     4          (loss due to the next object alignment)
+Instance size: 24 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+[C object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0    16        (object header)                           N/A
+     16     0   char [C.<elements>                             N/A
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 0 bytes external = 0 bytes total
+
+[C object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           41 00 00 f8 (01000001 00000000 00000000 11111000) (-134217663)
+     12     4        (object header)                           0b 00 00 00 (00001011 00000000 00000000 00000000) (11)
+     16    22   char [C.<elements>                             N/A
+     38     2        (loss due to the next object alignment)
+Instance size: 40 bytes
+Space losses: 0 bytes internal + 2 bytes external = 2 bytes total
+
+java.lang.String@7b1d7fffd object externals:
+          ADDRESS       SIZE TYPE             PATH                           VALUE
+        7be08eee8         24 java.lang.String                                (object)
+        7be08ef00         40 [C               .value                         [h, e, l, l, o,  , w, o, r, l, d]
+
+
+java.lang.String@1055e4afd object externals:
+          ADDRESS       SIZE TYPE             PATH                           VALUE
+        7be15c8c0         24 java.lang.String                                (object)
+        7be15c8d8         40 [C               .value                         [h, €, l, l, o,  , w, o, r, l, d]
+
+

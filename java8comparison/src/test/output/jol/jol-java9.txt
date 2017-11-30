@@ -1,0 +1,50 @@
+# Running 64-bit HotSpot VM.
+# Using compressed oop with 3-bit shift.
+# Using compressed klass with 3-bit shift.
+# Objects are 8 bytes aligned.
+# Field sizes by type: 4, 1, 1, 2, 2, 4, 4, 8, 8 [bytes]
+# Array element sizes: 4, 1, 1, 2, 2, 4, 4, 8, 8 [bytes]
+
+java.lang.String object internals:
+ OFFSET  SIZE     TYPE DESCRIPTION                               VALUE
+      0     4          (object header)                           09 00 00 00 (00001001 00000000 00000000 00000000) (9)
+      4     4          (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4          (object header)                           da 02 00 f8 (11011010 00000010 00000000 11111000) (-134216998)
+     12     4   byte[] String.value                              [104, 101, 108, 108, 111, 32, 119, 111, 114, 108, 100]
+     16     4      int String.hash                               0
+     20     1     byte String.coder                              0
+     21     3          (loss due to the next object alignment)
+Instance size: 24 bytes
+Space losses: 0 bytes internal + 3 bytes external = 3 bytes total
+
+[B object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0    16        (object header)                           N/A
+     16     0   byte [B.<elements>                             N/A
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 0 bytes external = 0 bytes total
+
+[B object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           f5 00 00 f8 (11110101 00000000 00000000 11111000) (-134217483)
+     12     4        (object header)                           0b 00 00 00 (00001011 00000000 00000000 00000000) (11)
+     16    11   byte [B.<elements>                             N/A
+     27     5        (loss due to the next object alignment)
+Instance size: 32 bytes
+Space losses: 0 bytes internal + 5 bytes external = 5 bytes total
+
+java.lang.String@429bd883d object externals:
+          ADDRESS       SIZE TYPE             PATH                           VALUE
+        7be9d7870         24 java.lang.String                                (object)
+        7be9d7888     216080 (something else) (somewhere else)               (something else)
+        7bea0c498         32 [B               .value                         [104, 101, 108, 108, 111, 32, 119, 111, 114, 108, 100]
+
+
+java.lang.String@1dd92fe2d object externals:
+          ADDRESS       SIZE TYPE             PATH                           VALUE
+        7be082bd0         24 java.lang.String                                (object)
+        7be082be8         40 [B               .value                         [104, 0, -84, 32, 108, 0, 108, 0, 111, 0, 32, 0, 119, 0, 111, 0, 114, 0, 108, 0, 100, 0]
+
+
