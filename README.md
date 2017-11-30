@@ -3,10 +3,17 @@ NCAU Java 9 Beyond Modules
 
 # Companion code for the NCAU "Java 9 beyond modules".
 
- * `jce.jsh` illustrates how to use JShell to check for unlimited strength Java Cryptography Extensions
- * `ObjectsTest.java` illustrates the methods added to the class `Objects` in Java 9
- * `CollectionsTest.java` illustrates the methods added to the classes `Set`, `List` and `Map` in Java 9
- * `InputStreamTest.java` illustrates the `InputStream.transferTo()` method added in Java 9
+ * the `java8comparison` module contains code that demonstrates improvements made to existing APIs without changing them
+   * `Benchmarks.java` is the launcher for all JMH microbenchmarks
+   * `Jsr310Benchmark.java` contains microbenchmarks for Java Date and Time API classes
+   * `UuidBenchmark.java` contains microbenchmarks for UUID
+   * `StringLayout.java` demonstrates string layout changes in Java 9
+   * `Jsr310Test.java` shows bugs in the fixed the Java Date and Time API in Java 9
+ * the `newwith9` contains code that demonstrates new APIs with Java 9
+   * `jce.jsh` illustrates how to use JShell to check for unlimited strength Java Cryptography Extensions
+   * `ObjectsTest.java` illustrates the methods added to the class `Objects` in Java 9
+   * `CollectionsTest.java` illustrates the methods added to the classes `Set`, `List` and `Map` in Java 9
+   * `InputStreamTest.java` illustrates the `InputStream.transferTo()` method added in Java 9
 
 ## References
 
