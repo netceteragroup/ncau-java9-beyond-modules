@@ -1,6 +1,7 @@
 package com.netcetera.ncau.java9beyondmodules.newwith9;
 
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.contains;
 import static org.hamcrest.Matchers.containsInAnyOrder;
 import static org.hamcrest.Matchers.hasEntry;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -24,7 +25,7 @@ class CollectionsTest {
 
   @Test
   void listOf() {
-    assertThat(List.of(1, 2, 3), containsInAnyOrder(1, 2, 3));
+    assertThat(List.of(1, 2, 3), contains(1, 2, 3));
     assertThrows(UnsupportedOperationException.class, () -> List.of(1).add(2));
   }
 
