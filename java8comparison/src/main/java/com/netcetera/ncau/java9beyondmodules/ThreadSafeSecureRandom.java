@@ -26,6 +26,7 @@ public final class ThreadSafeSecureRandom {
       .filter(e -> e.getValue().equals("true"))
       .map(e -> (String) e.getKey())
       .map(e -> e.substring("SecureRandom.".length(), e.length() - " ThreadSafe".length()))
+      .sorted()
       .forEach(System.out::println);
 
   }
