@@ -70,7 +70,7 @@ public class Jsr310Benchmark {
   }
 
   /**
-   * Demonstrates the performance of {@link java.util.Calendar#add(int, int)}
+   * Demonstrates the performance of {@link Calendar#add(int, int)}
    * compared to JSR-310.
    *
    * @return object to black hole
@@ -78,7 +78,7 @@ public class Jsr310Benchmark {
   @Benchmark
   public Date calendarAddDays() {
     Calendar calendar = Calendar.getInstance();
-    calendar.setTime(date);
+    calendar.setTime(this.date);
     calendar.add(Calendar.DAY_OF_MONTH, 1);
     return calendar.getTime();
   }
@@ -94,8 +94,8 @@ public class Jsr310Benchmark {
   }
 
   /**
-   * Demonstrates SimpleDateFormat formatting performance compared to JSR-310
-   * performance.
+   * Demonstrates {@link SimpleDateFormat} formatting performance compared
+   * to JSR-310 performance.
    *
    * @return object to black hole
    */
