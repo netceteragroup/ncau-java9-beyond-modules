@@ -1,29 +1,36 @@
 # JMH version: 1.19
 # VM version: JDK 9-internal, VM 2.9
 # VM invoker: /home/marschall/bin/java/openj9-9-181/bin/java
-# VM options: -Xoptionsfile=/home/marschall/bin/java/openj9-9-181/lib/options.default -Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword=org/apache/harmony/luni/util/ModifiedMap$Entry,noLockword=java/util/Hashtable$Entry,noLockword=java/lang/invoke/MethodType,noLockword=java/lang/invoke/MethodHandle,noLockword=java/lang/invoke/CollectHandle,noLockword=java/lang/invoke/ConstructorHandle,noLockword=java/lang/invoke/ConvertHandle,noLockword=java/lang/invoke/ArgumentConversionHandle,noLockword=java/lang/invoke/AsTypeHandle,noLockword=java/lang/invoke/ExplicitCastHandle,noLockword=java/lang/invoke/FilterReturnHandle,noLockword=java/lang/invoke/DirectHandle,noLockword=java/lang/invoke/ReceiverBoundHandle,noLockword=java/lang/invoke/DynamicInvokerHandle,noLockword=java/lang/invoke/FieldHandle,noLockword=java/lang/invoke/FieldGetterHandle,noLockword=java/lang/invoke/FieldSetterHandle,noLockword=java/lang/invoke/StaticFieldGetterHandle,noLockword=java/lang/invoke/StaticFieldSetterHandle,noLockword=java/lang/invoke/IndirectHandle,noLockword=java/lang/invoke/InterfaceHandle,noLockword=java/lang/invoke/VirtualHandle,noLockword=java/lang/invoke/PrimitiveHandle,noLockword=java/lang/invoke/InvokeExactHandle,noLockword=java/lang/invoke/InvokeGenericHandle,noLockword=java/lang/invoke/VarargsCollectorHandle,noLockword=java/lang/invoke/ThunkTuple -Xjcl:jclse9_29 -Dcom.ibm.oti.vm.bootstrap.library.path=/home/marschall/bin/java/openj9-9-181/lib/compressedrefs:/home/marschall/bin/java/openj9-9-181/lib -Dsun.boot.library.path=/home/marschall/bin/java/openj9-9-181/lib/compressedrefs:/home/marschall/bin/java/openj9-9-181/lib -Djava.library.path=/home/marschall/bin/java/openj9-9-181/lib/compressedrefs:/home/marschall/bin/java/openj9-9-181/lib:/usr/lib64:/usr/lib -Djava.home=/home/marschall/bin/java/openj9-9-181 -Duser.dir=/home/marschall/git/ncau-java9-beyond-modules/java8comparison -Xgcpolicy:optthruput -Xmx32g -Xms32g -Xmn31g --add-opens=java.base/java.io=ALL-UNNAMED -Djava.class.path=target/java8comparison-1.0.0-SNAPSHOT.jar -Dsun.java.command=target/java8comparison-1.0.0-SNAPSHOT.jar ibm9.txt -Dsun.java.launcher=SUN_STANDARD -Dsun.java.launcher.pid=1965
+# VM options: -Xoptionsfile=/home/marschall/bin/java/openj9-9-181/lib/options.default -Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword=org/apache/harmony/luni/util/ModifiedMap$Entry,noLockword=java/util/Hashtable$Entry,noLockword=java/lang/invoke/MethodType,noLockword=java/lang/invoke/MethodHandle,noLockword=java/lang/invoke/CollectHandle,noLockword=java/lang/invoke/ConstructorHandle,noLockword=java/lang/invoke/ConvertHandle,noLockword=java/lang/invoke/ArgumentConversionHandle,noLockword=java/lang/invoke/AsTypeHandle,noLockword=java/lang/invoke/ExplicitCastHandle,noLockword=java/lang/invoke/FilterReturnHandle,noLockword=java/lang/invoke/DirectHandle,noLockword=java/lang/invoke/ReceiverBoundHandle,noLockword=java/lang/invoke/DynamicInvokerHandle,noLockword=java/lang/invoke/FieldHandle,noLockword=java/lang/invoke/FieldGetterHandle,noLockword=java/lang/invoke/FieldSetterHandle,noLockword=java/lang/invoke/StaticFieldGetterHandle,noLockword=java/lang/invoke/StaticFieldSetterHandle,noLockword=java/lang/invoke/IndirectHandle,noLockword=java/lang/invoke/InterfaceHandle,noLockword=java/lang/invoke/VirtualHandle,noLockword=java/lang/invoke/PrimitiveHandle,noLockword=java/lang/invoke/InvokeExactHandle,noLockword=java/lang/invoke/InvokeGenericHandle,noLockword=java/lang/invoke/VarargsCollectorHandle,noLockword=java/lang/invoke/ThunkTuple -Xjcl:jclse9_29 -Dcom.ibm.oti.vm.bootstrap.library.path=/home/marschall/bin/java/openj9-9-181/lib/compressedrefs:/home/marschall/bin/java/openj9-9-181/lib -Dsun.boot.library.path=/home/marschall/bin/java/openj9-9-181/lib/compressedrefs:/home/marschall/bin/java/openj9-9-181/lib -Djava.library.path=/home/marschall/bin/java/openj9-9-181/lib/compressedrefs:/home/marschall/bin/java/openj9-9-181/lib:/usr/lib64:/usr/lib -Djava.home=/home/marschall/bin/java/openj9-9-181 -Duser.dir=/home/marschall/git/ncau-java9-beyond-modules/java8comparison -Xgcpolicy:optthruput -Xmx32g -Xms32g -Xmn31g --add-opens=java.base/java.io=ALL-UNNAMED -Djava.class.path=target/java8comparison-1.0.0-SNAPSHOT.jar -Dsun.java.command=target/java8comparison-1.0.0-SNAPSHOT.jar ibm9.txt -Dsun.java.launcher=SUN_STANDARD -Dsun.java.launcher.pid=10943
 # Warmup: 10 iterations, 1 s each
 # Measurement: 10 iterations, 1 s each
 # Timeout: 10 min per iteration
 # Threads: 1 thread, will synchronize iterations
 # Benchmark mode: Throughput, ops/time
 
-# Run complete. Total time: 00:20:43
-
 Benchmark                                             Mode  Cnt     Score      Error   Units
-Jsr310Benchmark.atZone                               thrpt  100     8.339 ±    0.094  ops/us
+Jsr310Benchmark.atZone                               thrpt  100     8.184 ±    0.080  ops/us
 Jsr310Benchmark.atZone:·gc.alloc.rate                thrpt  100       NaN             MB/sec
 Jsr310Benchmark.atZone:·gc.count                     thrpt  100       ≈ 0             counts
-Jsr310Benchmark.plusDays                             thrpt  100   167.702 ±   17.694  ops/us
+Jsr310Benchmark.calendarAddDays                      thrpt  100     1.663 ±    0.013  ops/us
+Jsr310Benchmark.calendarAddDays:·gc.alloc.rate       thrpt  100       NaN             MB/sec
+Jsr310Benchmark.calendarAddDays:·gc.count            thrpt  100       ≈ 0             counts
+Jsr310Benchmark.format                               thrpt  100     3.422 ±    0.018  ops/us
+Jsr310Benchmark.format:·gc.alloc.rate                thrpt  100       NaN             MB/sec
+Jsr310Benchmark.format:·gc.count                     thrpt  100       ≈ 0             counts
+Jsr310Benchmark.plusDays                             thrpt  100   169.667 ±   17.891  ops/us
 Jsr310Benchmark.plusDays:·gc.alloc.rate              thrpt  100       NaN             MB/sec
-Jsr310Benchmark.plusDays:·gc.churn.tenured-SOA       thrpt  100  4143.178 ± 2824.520  MB/sec
-Jsr310Benchmark.plusDays:·gc.churn.tenured-SOA.norm  thrpt  100    48.778 ±   35.486    B/op
+Jsr310Benchmark.plusDays:·gc.churn.tenured-SOA       thrpt  100  4146.178 ± 2826.545  MB/sec
+Jsr310Benchmark.plusDays:·gc.churn.tenured-SOA.norm  thrpt  100    48.401 ±   35.282    B/op
 Jsr310Benchmark.plusDays:·gc.count                   thrpt  100    20.000             counts
-Jsr310Benchmark.plusDays:·gc.time                    thrpt  100   870.000                 ms
-UuidBenchmark.parse                                  thrpt  100     4.268 ±    0.119  ops/us
+Jsr310Benchmark.plusDays:·gc.time                    thrpt  100   871.000                 ms
+Jsr310Benchmark.simapleDateFormat                    thrpt  100     2.022 ±    0.055  ops/us
+Jsr310Benchmark.simapleDateFormat:·gc.alloc.rate     thrpt  100       NaN             MB/sec
+Jsr310Benchmark.simapleDateFormat:·gc.count          thrpt  100       ≈ 0             counts
+UuidBenchmark.parse                                  thrpt  100     4.308 ±    0.112  ops/us
 UuidBenchmark.parse:·gc.alloc.rate                   thrpt  100       NaN             MB/sec
 UuidBenchmark.parse:·gc.count                        thrpt  100       ≈ 0             counts
-UuidBenchmark.serialize                              thrpt  100    15.321 ±    0.100  ops/us
+UuidBenchmark.serialize                              thrpt  100    15.295 ±    0.062  ops/us
 UuidBenchmark.serialize:·gc.alloc.rate               thrpt  100       NaN             MB/sec
 UuidBenchmark.serialize:·gc.count                    thrpt  100       ≈ 0             counts
 
